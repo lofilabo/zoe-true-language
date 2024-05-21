@@ -119,32 +119,32 @@ static const char *keywords[] = {
 	"",            /* TT_BOOLEAN */
 	"IT",          /* TT_IT */
 	"ITZ LIEK A",  /* TT_ITZLIEKA */
-	"NOOB",        /* TT_NOOB */
-	"NUMBR",       /* TT_NUMBR */
-	"NUMBAR",      /* TT_NUMBAR */
-	"TROOF",       /* TT_TROOF */
-	"YARN",        /* TT_YARN */
-	"BUKKIT",      /* TT_BUKKIT */
+	"zoe_nill",        /* TT_NOOB */	/* You Did This! 'NOOB' -> 	'zoe_nill' */
+	"zoe_integer",       /* TT_NUMBR */	/* You Did This! 'NUMBR' -> 	'zoe_integer' */
+	"zoe_decimal",      /* TT_NUMBAR */	/* You Did This! 'NUMBAR' -> 	'zoe_decimal' */
+	"zoe_boolean",       /* TT_TROOF */	/* You Did This! 'TROOF' -> 	'zoe_boolean' */
+	"zoe_string",        /* TT_YARN */	/* You Did This! 'YARN' -> 	'zoe_string' */
+	"zoe_array",      /* TT_BUKKIT */	/* You Did This! 'BUKKET' -> 	'zoe_array' */
 	"",            /* TT_EOF */
 	"",            /* TT_NEWLINE */
-	"HAI",         /* TT_HAI */
-	"KTHXBYE",     /* TT_KTHXBYE */
-	"HAS A",       /* TT_HASA */
-	"ITZ A",       /* TT_ITZA */
-	"ITZ",         /* TT_ITZ */
+	"oh look",     /* TT_HAI */	/* You Did This! 'HAI' -> 'oh look' */  /* use 'oh look!' or 'oh look !' */
+	"I see",       /* TT_KTHXBYE */	/* You Did This! 'KTHXBYE' -> 'I see'*/ /* use ' I see' or 'I see !' */
+	"define",       /* TT_HASA */	/* You Did This! 'HAS A' -> 'define' */
+	"=oftype==>",       /* TT_ITZA */	/* You Did This! 'ITZ A' -> '=oftype==>'       */
+	"=",           /* TT_ITZ */	/* You Did This! 'ITZ' -> '='       */
 	"R NOOB",      /* TT_RNOOB */
-	"R",           /* TT_R */
+	"<===",     /* TT_R */	/* You Did This! 'R' -> '<==='       */	
 	"AN YR",       /* TT_ANYR */
-	"AN",          /* TT_AN */
-	"SUM OF",      /* TT_SUMOF */
-	"DIFF OF",     /* TT_DIFFOF */
-	"PRODUKT OF",  /* TT_PRODUKTOF */
-	"QUOSHUNT OF", /* TT_QUOSHUNTOF */
-	"MOD OF",      /* TT_MODOF */
-	"BIGGR OF",    /* TT_BIGGROF */
-	"SMALLR OF",   /* TT_SMALLROF */
-	"BOTH OF",     /* TT_BOTHOF */
-	"EITHER OF",   /* TT_EITHEROF */
+	"zoe_do_maths_with",     /* TT_AN */	/* You Did This! 'AN' -> 'zoe_do_maths_with' */	
+	"zoe_+",      /* TT_SUMOF */	/* You Did This! 'SUM OF' -> 'zoe_+' */
+	"zoe_-",     /* TT_DIFFOF */			/*  You Did This! 'DIFF OF' -> 'zoe_-' */
+	"zoe_*",  /* TT_PRODUKTOF */		/*  You Did This! 'PRODUKT OF' -> 'zoe_*' */
+	"zoe_/", /* TT_QUOSHUNTOF */		/*  You Did This! 'QUOSHUNT OF' -> 'zoe_/' */
+	"zoe_%",      /* TT_MODOF */			/* You Did This! 'MOD OF' -> 'zoe_%' */
+	"zoe_>>>",    /* TT_BIGGROF */			/* You Did This! 'BIGGR OF' -> 'zoe_>>>' */
+	"zoe_<<<",   /* TT_SMALLROF */		/* You Did This! 'SMALLR OF' -> 'zoe_<<<' */
+	"zoe_both",     /* TT_BOTHOF */			/* You Did This! 'BOTH OF' -> 'zoe_both' */
+	"zoe_either",   /* TT_EITHEROF */		/* You Did This! 'EITHER OF' -> 'zoe_either' */
 	"WON OF",      /* TT_WONOF */
 	"NOT",         /* TT_NOT */
 	"MKAY",        /* TT_MKAY */
@@ -155,8 +155,8 @@ static const char *keywords[] = {
 	"MAEK",        /* TT_MAEK */
 	"A",           /* TT_A */
 	"IS NOW A",    /* TT_ISNOWA */
-	"VISIBLE",     /* TT_VISIBLE */
-	"SMOOSH",      /* TT_SMOOSH */
+	"scribble",       /* TT_VISIBLE */   /* You Did This! 'VISIBLE' -> 'scribble' */
+	"SMOOSH",      /* TT_SMOOSH */	     
 	"!",           /* TT_BANG */
 	"GIMMEH",      /* TT_GIMMEH */
 	"O RLY",       /* TT_ORLY */

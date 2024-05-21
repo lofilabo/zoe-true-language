@@ -262,9 +262,9 @@ LexemeList *scanBuffer(const char *buffer, unsigned int size, const char *fname)
 		/* Skip over comments */
 		if ((list->num == 0
 				|| *(list->lexemes[list->num - 1]->image) == '\n')
-				&& !strncmp(start, "OBTW", 4)) {
+				&& !strncmp(start, "^.^{", 4)) {
 			start += 4;
-			while (strncmp(start, "TLDR", 4)) {
+			while (strncmp(start, "}^.^", 4)) {
 				if ((!strncmp(start, "\r\n", 2) && (start += 2))
 						|| (*start == '\r' && start++)
 						|| (*start == '\n' && start++))
@@ -282,7 +282,7 @@ LexemeList *scanBuffer(const char *buffer, unsigned int size, const char *fname)
 			deleteLexemeList(list);
 			return NULL;
 		}
-		if (!strncmp(start, "BTW", 3)) {
+		if (!strncmp(start, "^.^", 3)) {
 			start += 3;
 			while (*start && *start != '\r' && *start != '\n')
 				start++;
