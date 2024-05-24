@@ -1,0 +1,54 @@
+oh look !
+	^.^  CAN HAS STDIO?
+	^.^  scribble "but Doctor..."
+
+	^.^{
+	NOTES
+
+		HAI 1.2
+
+		BTW most basic example
+		HOW IZ I MAINUMBA YR INONE
+		VISIBLE INONE
+		IF U SAY SO
+
+		BTW example - 2 inputs
+		HOW IZ I MAINUMBB YR INONE21 AN YR INONE22
+		VISIBLE INONE21
+		VISIBLE INONE22
+		IF U SAY SO
+
+		BTW example - 2 inputs & 1 return
+		BTW return is caused by FOUND YR and 'recieved' by VISIBLE
+		HOW IZ I MAINUMBC YR INONE31 AN YR INONE32
+		BTW VISIBLE INONE31
+		BTW VISIBLE INONE32
+
+		BTW different things can be returned!
+		BTW FOUND YR "77"
+		FOUND YR 77
+		IF U SAY SO
+
+		I IZ MAINUMBA YR "1" MKAY
+		I IZ MAINUMBB YR "4" AN YR "8" MKAY
+		VISIBLE I IZ MAINUMBC YR 3 AN YR 9 MKAY
+
+		KTHXBYE
+
+
+
+	}^.^
+
+^.^	Task 1.  Move this to zoe.  Look Back at "BTW most basic example"
+
+	function I myFunction zoe_pass arriving_value
+		scribble arriving_value
+	end_of_function
+
+	I wish_to_call myFunction zoe_pass  1  zoe_call_now
+^.^     Instruction    Name of func    Instruction   Val Instruction
+	I wish_to_call myFunction zoe_pass "2" zoe_call_now
+	I wish_to_call myFunction zoe_pass "blubble" zoe_call_now
+	I wish_to_call myFunction zoe_pass 44.4 zoe_call_now
+
+I see !
