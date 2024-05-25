@@ -1,0 +1,30 @@
+oh look !
+  CAN HAS STDIO?
+
+	^.^ a note
+
+	^.^{
+		another note!
+		on many lines!!
+	}^.^
+
+	I define my_num1 = 3
+	^.^ scribble my_num1
+
+	I define my_num2 = 7.7
+	^.^ scribble my_num2
+
+	I define my_num = "hello"
+	^.^ scribble my_num 
+
+	I define  VAR_A = 5
+	I define  VAR_B = 3
+	I define  VAR_C = 0
+
+	VAR_C <=== zoe_+ VAR_A zoe_do_maths_with VAR_B
+	scribble VAR_C
+
+	VAR_C <=== zoe_+ my_num1 zoe_do_maths_with my_num2
+	scribble VAR_C
+
+I see !
