@@ -1,8 +1,0 @@
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/install/strip.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/install/local.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/install.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/list_install_components.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/rebuild_cache.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/edit_cache.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/test.dir
-/home/richard/Documents/GitHub/zoe-true-language/v001/CMakeFiles/zoe.dir
