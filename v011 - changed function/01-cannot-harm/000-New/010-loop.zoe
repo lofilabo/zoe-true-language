@@ -6,7 +6,7 @@ oh look !
 
 	I define trackingVar = 0
 	I define printingValue = 0
-		zoe_loop_begin loopy zoe_inthis zoe_pass_your trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 4
+		zoe_loop_begin loopy zoe_inthis zoe_pass_this trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 4
 			scribble printingValue			
 			printingValue <=== zoe_+ trackingVar zoe_do_maths_with 1
 			^.^scribble "but Doctor..."
