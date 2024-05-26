@@ -167,7 +167,7 @@ static const char *keywords[] = {
 	"WTF",         /* TT_WTF */
 	"OMG",         /* TT_OMG */
 	"OMGWTF",      /* TT_OMGWTF */
-	"GTFO",        /* TT_GTFO */
+	"zoe_exit",        /* TT_GTFO */	/* You Did This! 'GTFO' -> 'zoe_exit' */
 	"zoe_loop_begin",    /* TT_IMINYR */	/* You Did This! 'IM IN YR' -> 'zoe_inside_loop' */
 	"zoe_inthis",       /* TT_UPPIN */		/* You Did This! 'UPPIN' -> 'zoe_inthis' */
 	"NERFIN",      /* TT_NERFIN */
