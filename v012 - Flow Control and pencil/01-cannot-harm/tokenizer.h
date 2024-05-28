@@ -155,7 +155,7 @@ static const char *keywords[] = {
 	"MAEK",        /* TT_MAEK */
 	"A",           /* TT_A */
 	"IS NOW A",    /* TT_ISNOWA */
-	"scribble",       /* TT_VISIBLE */   /* You Did This! 'VISIBLE' -> 'scribble' */
+	"pencil",       /* TT_VISIBLE */   /* You Did This! 'VISIBLE' -> 'pencil' */
 	"SMOOSH",      /* TT_SMOOSH */	     
 	"!",           /* TT_BANG */
 	"zoe_pleaseInput",      /* TT_GIMMEH */	 /* You Did This! 'GIMMEH' -> 'zoe_pleaseInput' */
