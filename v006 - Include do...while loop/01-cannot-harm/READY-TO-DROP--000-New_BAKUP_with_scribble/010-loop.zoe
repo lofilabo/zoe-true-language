@@ -1,22 +1,22 @@
 oh look !
   CAN HAS STDIO?
-  pencil "but Doctor..."
+  scribble "but Doctor..."
 
 ^.^Loop!!
 
 	I define trackingVar = 0
 	I define printingValue = 0
 		zoe_loop_begin loopy zoe_inthis zoe_pass_this trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 3
-			pencil printingValue			
+			scribble printingValue			
 			printingValue <=== zoe_+ trackingVar zoe_do_maths_with 1
-			^.^pencil "but Doctor..."
+			^.^scribble "but Doctor..."
 		zoe_loop_end loopy
 
-	pencil "--------"
+	scribble "--------"
 
 	trackingVar <=== 2
 		zoe_loop_begin loopy zoe_inthis zoe_pass_this trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 7
-			pencil trackingVar	
+			scribble trackingVar	
 		zoe_loop_end loopy
 
 I see !
@@ -32,7 +32,7 @@ I HAS A VAR ITZ 0
 my_numZ <=== zoe_+ my_num1 zoe_do_maths_with my_num2
 my_numZ <=== zoe_+ VAR zoe_do_maths_with 1
 VISIBLE      SUM OF VAR    AN                1
-pencil
+scribble
 
 2.
 TT_IMINYR,      /**< Loop beginning. */

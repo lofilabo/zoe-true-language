@@ -1,6 +1,6 @@
 oh look !
 	^.^  CAN HAS STDIO?
-	^.^  pencil "but Doctor..."
+	^.^  scribble "but Doctor..."
 
 	^.^{
 	NOTES
@@ -43,14 +43,14 @@ oh look !
 
 
 	function I myFunction zoe_pass_this arriving_value
-		pencil arriving_value
+		scribble arriving_value
 	end_of_function
 
 
 	function I myFunctionTwo zoe_pass_this arriving_value zoe_and_this second_value zoe_and_this third_value
-		pencil arriving_value
+		scribble arriving_value
 
-		pencil SMOOSH "3 Values" ":->" arriving_value "; " second_value "; " third_value zoe_call_now
+		scribble SMOOSH "3 Values" ":->" arriving_value "; " second_value "; " third_value zoe_call_now
 	zoe_return_from_function "I Came Back"
 	end_of_function
 
@@ -63,6 +63,6 @@ oh look !
 	retVal <=== I wish_to_call myFunctionTwo zoe_pass_this 44.4 zoe_and_this 333 zoe_and_this "Jamie!" zoe_call_now
 
 ^.^	VISIBLE  SMOOSH  VAR1           " "   VAR3   MKAY
-	pencil SMOOSH "returned vale" ":->" retVal zoe_call_now
+	scribble SMOOSH "returned vale" ":->" retVal zoe_call_now
 
 I see !

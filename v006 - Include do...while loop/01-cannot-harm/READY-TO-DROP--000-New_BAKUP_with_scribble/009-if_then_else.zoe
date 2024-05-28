@@ -2,7 +2,7 @@ oh look !
 
 ^.^{
   CAN HAS STDIO?
-  pencil "but Doctor..."
+  scribble "but Doctor..."
 
 	Ref:
 
@@ -21,8 +21,8 @@ oh look !
 
 }^.^
 
-pencil "======================================================"
-pencil "let's start...."
+scribble "======================================================"
+scribble "let's start...."
 
 I define var1 = "letterUP"
 I define var2 = "letterUP"
@@ -30,50 +30,50 @@ I define var3 = "letterDOWN"
 I define var4 = "letterMIDDLE"
 I define var5 = "letterOUTTHERE"
 
-pencil "------------------------------------------------------"
-pencil "Step 1:"
+scribble "------------------------------------------------------"
+scribble "Step 1:"
 ^.^ This should pass
 zoe_same var1 zoe_do_maths_with var2
 zoe_match?
 	zoe_pass
-		pencil "You Passed!"
+		scribble "You Passed!"
 	zoe_fail
-		pencil "You Failed!"
+		scribble "You Failed!"
 zoe_oh_I_see
 
 
-pencil "------------------------------------------------------"
-pencil "Step 2:"
+scribble "------------------------------------------------------"
+scribble "Step 2:"
 ^.^ This should fail
 zoe_same var1 zoe_do_maths_with var3
 zoe_match?
 	zoe_pass
-		pencil "You Passed!"
+		scribble "You Passed!"
 	zoe_fail
-		pencil "You Failed!"
+		scribble "You Failed!"
 zoe_oh_I_see
 
 
 
-pencil "------------------------------------------------------"
+scribble "------------------------------------------------------"
 ^.^ This can pass (3 times!) and fail once.
-pencil "Step 3:"
+scribble "Step 3:"
 zoe_same var1 zoe_do_maths_with var2
 zoe_match?
 	zoe_pass
-		pencil "You Passed Stage 1"
+		scribble "You Passed Stage 1"
 
 	zoe_else zoe_same var1 zoe_do_maths_with var4
-		pencil "You Passed Stage 2"
+		scribble "You Passed Stage 2"
 
 	zoe_else zoe_same var1 zoe_do_maths_with var5
-		pencil "You Passed Stage 3"
+		scribble "You Passed Stage 3"
 
 	zoe_fail
-		pencil "You Failed."
+		scribble "You Failed."
 zoe_oh_I_see
 
 
-pencil "======================================================"
+scribble "======================================================"
 
 I see !

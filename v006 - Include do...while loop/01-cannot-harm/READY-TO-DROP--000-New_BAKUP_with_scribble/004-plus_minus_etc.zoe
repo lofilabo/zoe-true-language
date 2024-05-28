@@ -5,7 +5,7 @@ oh look !
 
 ^.^{
 	Nothing but a note
-  	pencil "but Doctor..."
+  	scribble "but Doctor..."
 }^.^
 
 
@@ -15,24 +15,24 @@ oh look !
 
 
 	I define my_numZ = 0
-	^.^	pencil my_numZ
+	^.^	scribble my_numZ
 
 	I define my_num1 = 4
-	^.^	pencil my_num1
+	^.^	scribble my_num1
 
 	I define my_num2 = 2
-	^.^	pencil my_num2
+	^.^	scribble my_num2
 
 	my_numZ <=== zoe_+ my_num1 zoe_do_maths_with my_num2
-	pencil my_numZ
+	scribble my_numZ
 
 	my_numZ <=== zoe_- my_num1 zoe_do_maths_with my_num2
-	pencil my_numZ
+	scribble my_numZ
 
 	my_numZ <=== zoe_* my_num1 zoe_do_maths_with my_num2
-	pencil my_numZ
+	scribble my_numZ
 
 	my_numZ <=== zoe_/ my_num1 zoe_do_maths_with my_num2
-	pencil my_numZ
+	scribble my_numZ
 
 I see !

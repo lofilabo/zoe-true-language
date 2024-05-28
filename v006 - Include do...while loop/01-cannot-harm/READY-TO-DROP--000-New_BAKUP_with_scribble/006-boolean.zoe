@@ -8,7 +8,7 @@ I define my_boolZ =oftype==> zoe_boolean
 
 my_bool1 <=== "True"
 my_bool2 <=== "False"
-pencil my_bool1
+scribble my_bool1
 
 ^.^{
 0. NEXT STEP"
@@ -58,10 +58,10 @@ pencil my_bool1
 	And print the Result! 
 
 	my_boolZ <=== zoe_both my_bool1 zoe_do_maths_with my_bool2
-	^.^ pencil my_boolZ
+	^.^ scribble my_boolZ
 
 	my_boolZ <=== zoe_either my_bool1 zoe_do_maths_with my_bool2
-	^.^ pencil my_boolZ
+	^.^ scribble my_boolZ
 }^.^
 
 I see !

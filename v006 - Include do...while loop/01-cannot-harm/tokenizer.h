@@ -134,7 +134,7 @@ static const char *keywords[] = {
 	"=",           /* TT_ITZ */	/* You Did This! 'ITZ' -> '='       */
 	"R NOOB",      /* TT_RNOOB */
 	"<===",     /* TT_R */	/* You Did This! 'R' -> '<==='       */	
-	"AN YR",       /* TT_ANYR */
+	"zoe_and_this",       /* TT_ANYR */		/* You Did This! 'AN YR' -> 'zoe_and_this' */	
 	"zoe_do_maths_with",     /* TT_AN */	/* You Did This! 'AN' -> 'zoe_do_maths_with' */	
 	"zoe_+",      /* TT_SUMOF */	/* You Did This! 'SUM OF' -> 'zoe_+' */
 	"zoe_-",     /* TT_DIFFOF */			/*  You Did This! 'DIFF OF' -> 'zoe_-' */
@@ -155,30 +155,30 @@ static const char *keywords[] = {
 	"MAEK",        /* TT_MAEK */
 	"A",           /* TT_A */
 	"IS NOW A",    /* TT_ISNOWA */
-	"scribble",       /* TT_VISIBLE */   /* You Did This! 'VISIBLE' -> 'scribble' */
+	"pencil",       /* TT_VISIBLE */   /* You Did This! 'VISIBLE' -> 'pencil' */
 	"SMOOSH",      /* TT_SMOOSH */	     
 	"!",           /* TT_BANG */
-	"GIMMEH",      /* TT_GIMMEH */
+	"zoe_pleaseInput",      /* TT_GIMMEH */	 /* You Did This! 'GIMMEH' -> 'zoe_pleaseInput' */
 	"zoe_match",       /* TT_ORLY */		 /* You Did This! 'O RLY' -> 'zoe_match' */
 	"zoe_pass",      /* TT_YARLY */		 /* You Did This! 'YA RLY' -> 'zoe_pass' */
 	"zoe_else",       /* TT_MEBBE */		 /* You Did This! 'MEBBE' -> 'zoe_else' */
 	"zoe_fail",      /* TT_NOWAI */			 /* You Did This! 'NO WAI' -> 'zoe_fail' */
 	"zoe_oh_I_see",         /* TT_OIC */			 /* You Did This! 'OIC' -> 'zoe_oh_I_see' */
-	"WTF",         /* TT_WTF */
-	"OMG",         /* TT_OMG */
-	"OMGWTF",      /* TT_OMGWTF */
-	"GTFO",        /* TT_GTFO */
+	"zoe_whichone",         /* TT_WTF */		/* You Did This! 'WTF' -> 'zoe_whichone' */
+	"zoe_Isee",         /* TT_OMG */  	/* You Did This! 'OMG' -> 'zoe_Isee' */
+	"zoe_ohIsee",      /* TT_OMGWTF */		/* You Did This! 'OMGWTF' -> 'zoe_ohIsee' */
+	"zoe_exit",        /* TT_GTFO */	/* You Did This! 'GTFO' -> 'zoe_exit' */
 	"zoe_loop_begin",    /* TT_IMINYR */	/* You Did This! 'IM IN YR' -> 'zoe_inside_loop' */
 	"zoe_inthis",       /* TT_UPPIN */		/* You Did This! 'UPPIN' -> 'zoe_inthis' */
 	"NERFIN",      /* TT_NERFIN */
-	"zoe_pass_your",	/* TT_YR */			/* You Did This! 'YR' -> 'zoe_pass_your' */
+	"zoe_pass_this",	/* TT_YR */			/* You Did This! 'YR' -> 'zoe_pass_your' */
 	"zoe_until",         /* TT_TIL */			/* You Did This! 'TIL' -> 'zoe_until' */
 	"WILE",        /* TT_WILE */
 	"zoe_loop_end", /* TT_IMOUTTAYR */		/* You Did This! 'IM OUTTA YR' -> 'zoe_loop_end' */
 	"function",      /* TT_HOWIZ */		 /* You Did This! 'HOW IZ' -> 'function' */
 	"wish_to_call",          /* TT_IZ */			 /* You Did This! 'IZ' -> 'wish_to_call' */
 	"end_of_function", /* TT_IFUSAYSO */		 /* You Did This! 'IF U SAY SO' -> 'end_of_function' */
-	"FOUND YR",    /* TT_FOUNDYR */
+	"zoe_return_from_function",    /* TT_FOUNDYR */	/* You Did This! 'FOUND YR' -> 'zoe_return_from_function' */	
 	"SRS",         /* TT_SRS */
 	"'Z",          /* TT_APOSTROPHEZ */
 	"O HAI IM",    /* TT_OHAIIM */

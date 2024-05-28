@@ -9,22 +9,22 @@ oh look !
 	}^.^
 
 	I define my_num1 = 3
-	^.^ pencil my_num1
+	^.^ scribble my_num1
 
 	I define my_num2 = 7.7
-	^.^ pencil my_num2
+	^.^ scribble my_num2
 
 	I define my_num = "hello"
-	^.^ pencil my_num 
+	^.^ scribble my_num 
 
 	I define  VAR_A = 5
 	I define  VAR_B = 3
 	I define  VAR_C = 0
 
 	VAR_C <=== zoe_+ VAR_A zoe_do_maths_with VAR_B
-	pencil VAR_C
+	scribble VAR_C
 
 	VAR_C <=== zoe_+ my_num1 zoe_do_maths_with my_num2
-	pencil VAR_C
+	scribble VAR_C
 
 I see !
