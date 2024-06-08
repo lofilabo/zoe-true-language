@@ -1,0 +1,84 @@
+^.^{
+
+ALL OF THEM are triggered here!
+
+Developed via ../unacceptable/unacceptable01.zoe
+Might still be there!
+Just to let you know....
+
+}^.^
+
+
+
+
+^.^{
+HAI 1.4
+  CAN HAS MYLIB?
+  BTW somewhat verbose syntax, but easy to implement
+  VISIBLE I IZ MYLIB'Z ISUNACCEPTABLE YR 3 MKAY
+KTHXBYE
+
+
+BTW Going INTO the server
+VISIBLE I IZ MYLIB'Z ISUNACCEPTABLE1 YR "New Text Passed" MKAY
+BTW visible is the things that shows the 'returned' message!
+VISIBLE " "
+
+}^.^
+
+oh look !
+  CAN HAS MYLIB?
+  CAN HAS STDIO?
+  pencil "but Doctor..."
+	
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLE1 YR "New Text Passed" MKAY
+    ^.^	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLE1 zoe_pass_this "New Text Passed" zoe_call_now
+
+    ^.^	pencil " "
+    ^.^	pencil " "
+
+
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLEZZZ2 YR 41 AN YR 42 AN YR 43 MKAY
+    ^.^	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZ2 zoe_pass_this 41 zoe_and_this 42 zoe_and_this 43 zoe_call_now
+
+
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLEZZZ3 YR "id1,data1;id2,data2;id3,data3" AN YR ";" AN YR 1 MKAY
+
+
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLE1 YR "New Text Passed" MKAY
+^.^  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLE1 zoe_pass_this "New Text Passed" zoe_call_now
+^.^  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLE2 zoe_pass_this "New Text Passed" zoe_call_now
+^.^  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLE3 zoe_pass_this "New Text Passed" zoe_call_now
+^.^  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLE4 zoe_pass_this "New Text Passed" zoe_call_now
+^.^  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZ zoe_pass_this "New Text Passed" zoe_call_now
+
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLEZZ1 YR 11 AN YR 12 MKAY
+^.^	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZ1 zoe_pass_this 111 zoe_and_this 122 zoe_call_now
+^.^	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZ2 zoe_pass_this 211 zoe_and_this 222 zoe_call_now
+^.^	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZ3 zoe_pass_this 311 zoe_and_this 322 zoe_call_now
+
+^.^	VISIBLE I IZ MYLIB'Z ISUNACCEPTABLEZZZbase YR 31 AN YR 32 AN YR 33 MKAY
+	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZbase zoe_pass_this 31 zoe_and_this 32 zoe_and_this 33 zoe_call_now
+	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZ1 zoe_pass_this 41 zoe_and_this 42 zoe_and_this 43 zoe_call_now
+	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZ2 zoe_pass_this 51 zoe_and_this 52 zoe_and_this 53 zoe_call_now
+
+^.^ SPACE ... and NOSPACE... are OK.  But no SPACE after ...
+^.^ You can put --- pencil --- at the beginning of the operation to show feedback, or leave it out.
+^.^ The feedback will be in zoejamie.txt
+
+^.^{
+}^.^
+  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZ3...
+	zoe_pass_this "id1,data1;id2,data2;id3,data3"...
+	zoe_and_this ";"...
+	zoe_and_this 1 zoe_call_now
+
+  	pencil I wish_to_call MYLIB --arrMember--> ISUNACCEPTABLEZZZ3 ...
+	zoe_pass_this "id1,data1;id2,data2;id3,data3" ...
+	zoe_and_this ";" ...
+	zoe_and_this 0 ...
+	zoe_call_now
+
+
+
+I see !

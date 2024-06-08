@@ -1,0 +1,38 @@
+oh look !
+  CAN HAS STDIO?
+
+
+
+^.^{
+	Nothing but a note
+  	scribble "but Doctor..."
+}^.^
+
+
+
+
+
+
+
+	I define my_numZ = 0
+	^.^	scribble my_numZ
+
+	I define my_num1 = 4
+	^.^	scribble my_num1
+
+	I define my_num2 = 2
+	^.^	scribble my_num2
+
+	my_numZ <=== zoe_+ my_num1 zoe_do_maths_with my_num2
+	scribble my_numZ
+
+	my_numZ <=== zoe_- my_num1 zoe_do_maths_with my_num2
+	scribble my_numZ
+
+	my_numZ <=== zoe_* my_num1 zoe_do_maths_with my_num2
+	scribble my_numZ
+
+	my_numZ <=== zoe_/ my_num1 zoe_do_maths_with my_num2
+	scribble my_numZ
+
+I see !
