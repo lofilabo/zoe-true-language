@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/richard/Documents/02-cannot-harm/binding.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/binding.c.o"
-  "/home/richard/Documents/02-cannot-harm/error.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/error.c.o"
-  "/home/richard/Documents/02-cannot-harm/inet.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/inet.c.o"
-  "/home/richard/Documents/02-cannot-harm/interpreter.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/interpreter.c.o"
-  "/home/richard/Documents/02-cannot-harm/lexer.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/lexer.c.o"
-  "/home/richard/Documents/02-cannot-harm/main.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/main.c.o"
-  "/home/richard/Documents/02-cannot-harm/parser.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/parser.c.o"
-  "/home/richard/Documents/02-cannot-harm/tokenizer.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/tokenizer.c.o"
-  "/home/richard/Documents/02-cannot-harm/unacceptable.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/unacceptable.c.o"
-  "/home/richard/Documents/02-cannot-harm/unicode.c" "/home/richard/Documents/02-cannot-harm/CMakeFiles/zoe.dir/unicode.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/binding.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/binding.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/error.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/error.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/inet.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/inet.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/interpreter.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/interpreter.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/lexer.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/lexer.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/main.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/main.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/parser.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/parser.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/tokenizer.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/tokenizer.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/unacceptable.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/unacceptable.c.o"
+  "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/unicode.c" "/home/richard/Documents/GitHub/zoe-true-language/v202 - with maloc/02-cannot-harm/CMakeFiles/zoe.dir/unicode.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
