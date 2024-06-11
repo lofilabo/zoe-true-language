@@ -1,0 +1,8 @@
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/install/strip.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/install/local.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/install.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/list_install_components.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/rebuild_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/edit_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/test.dir
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/CMakeFiles/zoe.dir

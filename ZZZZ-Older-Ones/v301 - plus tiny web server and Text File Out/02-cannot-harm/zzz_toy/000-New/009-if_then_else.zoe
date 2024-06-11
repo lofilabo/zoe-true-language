@@ -1,0 +1,79 @@
+oh look !
+
+^.^{
+  CAN HAS STDIO?
+  pencil "but Doctor..."
+
+	Ref:
+
+	BOTH SAEM NAMES AN "NAME"
+	O RLY?
+	   YA RLY, VISIBLE "YOUR NAME IS ABCD"
+	   MEBBE BOTH SAEM ANIMAL AN "OUR NAME IS ABCD"
+	   VISIBLE "NO ABCD"
+	OIC
+
+
+
+	SIDE-NOTE:
+	what about this?
+	*.*>    <*.* 
+
+}^.^
+
+pencil "======================================================"
+pencil "let's start...."
+
+I define var1 = "letterUP"
+I define var2 = "letterUP"
+I define var3 = "letterDOWN"
+I define var4 = "letterMIDDLE"
+I define var5 = "letterOUTTHERE"
+
+pencil "------------------------------------------------------"
+pencil "Step 1:"
+^.^ This should pass
+zoe_same var1 zoe_do_maths_with var2
+zoe_match?
+	zoe_pass
+		pencil "You Passed!"
+	zoe_fail
+		pencil "You Failed!"
+zoe_oh_I_see
+
+
+pencil "------------------------------------------------------"
+pencil "Step 2:"
+^.^ This should fail
+zoe_same var1 zoe_do_maths_with var3
+zoe_match?
+	zoe_pass
+		pencil "You Passed!"
+	zoe_fail
+		pencil "You Failed!"
+zoe_oh_I_see
+
+
+
+pencil "------------------------------------------------------"
+^.^ This can pass (3 times!) and fail once.
+pencil "Step 3:"
+zoe_same var1 zoe_do_maths_with var2
+zoe_match?
+	zoe_pass
+		pencil "You Passed Stage 1"
+
+	zoe_else zoe_same var1 zoe_do_maths_with var4
+		pencil "You Passed Stage 2"
+
+	zoe_else zoe_same var1 zoe_do_maths_with var5
+		pencil "You Passed Stage 3"
+
+	zoe_fail
+		pencil "You Failed."
+zoe_oh_I_see
+
+
+pencil "======================================================"
+
+I see !
