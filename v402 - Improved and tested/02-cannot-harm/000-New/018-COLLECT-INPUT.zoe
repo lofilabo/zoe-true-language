@@ -1,0 +1,91 @@
+^.^{
+
+Learn how to COLLECT input from the user!
+
+}^.^
+oh look !
+
+	I define letter = ""
+	zoe_pleaseInput letter
+	letter, zoe_whichone?
+	    zoe_Isee "a"
+		pencil "You said a"
+		zoe_exit ^.^ Exit!! Now!!
+
+	    zoe_Isee "b"
+		pencil "You said b"
+		^.^ BTW Since there is no `zoe_exit` the next statements will also be tested
+		^.^ Do Not Exit!! Pass-through the rest!!
+
+		^.^ zoe_exit
+
+	    zoe_Isee "A"
+		pencil "You said A"
+		^.^ zoe_exit
+
+	    zoe_Isee "B"
+		pencil "You said B"
+		^.^ zoe_exit
+
+	    zoe_ohIsee
+		pencil "Oh! I see!!"
+
+	zoe_oh_I_see
+I see !
+
+
+oh look !
+
+
+^.^{
+
+I HAS A -> I define  as-in: I define COLOR = ""
+VISIBLE -> pencil
+OIC	-> zoe_oh_I_see
+GTFO	-> zoe_exit
+
+GIMMEH  -> zoe_pleaseInput 
+WTF  	-> zoe_whichone  
+OMG  	-> zoe_Isee
+OMGWTF  -> zoe_ohIsee
+
+BTW Case statement:
+	I HAS A COLOR
+	GIMMEH COLOR
+	COLOR, WTF?
+	    OMG "R"
+		VISIBLE "RED FISH"
+		GTFO
+	    OMG "Y"
+		VISIBLE "YELLOW FISH"
+		BTW Since there is no `GTFO` the next statements will also be tested
+	    OMG "G"
+	    OMG "B"
+		VISIBLE "FISH HAS A FLAVOR"
+		GTFO
+	    OMGWTF
+		VISIBLE "FISH IS TRANSPARENT OHNO WAT"
+	OIC
+}^.^
+
+	I define COLOR = ""
+	zoe_pleaseInput COLOR
+	COLOR, zoe_whichone?
+	    zoe_Isee "R"
+		pencil "RED FISH"
+		zoe_exit
+	    zoe_Isee "Y"
+		pencil "YELLOW FISH"
+		^.^ BTW Since there is no `GTFO` the next statements will also be tested
+	    zoe_Isee "G"
+	    zoe_Isee "grr"
+	    zoe_Isee "B"
+		pencil "FISH HAS A FLAVOR"
+		zoe_exit
+	    zoe_ohIsee
+	pencil "FISH IS TRANSPARENT OHNO WAT"
+	zoe_oh_I_see
+
+
+
+I see !

@@ -1,0 +1,8 @@
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/install/strip.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/install/local.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/install.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/list_install_components.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/rebuild_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/edit_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/test.dir
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/CMakeFiles/zoe.dir

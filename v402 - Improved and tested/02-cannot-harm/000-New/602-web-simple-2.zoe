@@ -1,0 +1,241 @@
+^.^{
+
+Developed via ../unacceptable/unacceptable01.zoe
+Might still be there!
+Just to let you know....
+
+127.0.0.1:13337
+
+
+
+}^.^
+oh look !
+
+	CAN HAS STDIO?
+	CAN HAS SOCKS?
+	CAN HAS STRING?
+	CAN HAS MYLIB?
+	CAN HAS MYLIB?
+	CAN HAS STDIO?
+
+	I define sock
+	sock <=== I wish_to_call SOCKS --arrMember--> BIND zoe_pass_this "127.0.0.1" zoe_and_this 13337 zoe_call_now
+
+
+	^.^{
+		THE REASON FOR CAPTURING TWICE 
+
+		When a 'REQUEST' is made, there are 2 'calls', one after another.
+		If we store the 'last request' re recieve, we will miss important 
+		one ith this information:
+
+			GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+			Host: 127.0.0.1:13337
+			Connection: keep-alive
+			Cache-Control: max-age=0
+			......
+		
+		If we store only the 'last' response we get, this will be overwritten.
+
+		We get 2 and not 1 responses.
+
+		i.
+		Uncomment this:
+		^.^ pencil slotIn
+		to see them.
+
+		ii.
+		Store both of them in different vars.
+		these are:
+		uwarM  and
+		uwarO
+
+		We then look into uwarM to get what we want:
+		GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+		beween GET and HTTP....
+
+		iii.
+		Important to remember:
+		Our ONE request results in TWO replies,
+		of which the second will override the first if we 'just' roll the loop
+		to pick up 'the reply'
+	}^.^
+
+
+	I define trackingVar = ""
+	I define printingValue = ""
+	I define uwar1 = ""
+	I define uwar2 = ""
+	I define uwar3 = ""
+	I define uwar7 = ""
+	I define uwarM = ""
+	I define uwarO = ""
+	I define s = 0
+
+
+	zoe_loop_begin loop
+
+		I define conn
+		conn <=== I wish_to_call SOCKS --arrMember--> LISTN zoe_pass_this sock zoe_call_now
+		I define cmd
+		cmd  <=== I wish_to_call SOCKS --arrMember-->  GET zoe_pass_this sock zoe_and_this conn zoe_and_this 1024 zoe_call_now
+
+		^.^  I define slotIn = "niggly naggly noo noo noo"
+
+		I define slotIn = cmd
+		
+		^.^  I HAS A slotIn ITZ I IZ parse YR cmd MKAY BTW <<<<we must prepare this next.  Use ___parse___ function
+		
+		^.^ do not show everything if you don't want to.
+		^.^ This shows on the Server Monitor - not the Browser!
+		^.^ pencil slotIn 
+		
+		^.^ use this to see the string which is being looked at.
+		^.^ pencil slotIn
+
+		^.^ Experiment - try to cut off the first bit of the string     uwar7 <=== I wish_to_call MYLIB --arrMember--> zoePassString1 zoe_pass_this slotIn zoe_and_this " " zoe_and_this 0 zoe_call_now
+		uwar2 <=== I wish_to_call MYLIB --arrMember--> zoePassString1 zoe_pass_this slotIn zoe_and_this "H" zoe_and_this 1 zoe_call_now
+		^.^	DIVIDE THE STRING.  >>>> HTTP/1.1 <<<		Here we are using 'H' from HTTP/1.1 
+		^.^	Can we do better?
+		^.^	SPLITTING THE STRING 
+		^.^	THIS BIT.
+		^.^	D O    N O T   L E A V E    T H I S   A L O N E
+		
+		^.^ use this to see the string which is being looked at.
+		^.^ pencil uwar2
+
+
+		uwar3 <=== I wish_to_call MYLIB --arrMember--> zoePassString1 zoe_pass_this uwar2 zoe_and_this "/" zoe_and_this 0 zoe_call_now
+
+
+			^.^ pencil slotIn  ^.^ EACH reply from the server.
+			^.^ pencil uwar3
+			^.^ pencil s
+		
+			^.^ Let's keep track of the 'reply' we are 'inside'
+			^.^ s=0 -- first one	( uwarM )
+			^.^ s=1 -- second one	( uwarO )
+
+
+			^.^ if s = 1, we are in the 1st output.  
+			zoe_same s zoe_do_maths_with 0
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					uwarM <=== uwar3
+					pencil uwarM
+			zoe_oh_I_see
+
+			^.^ if s = 1, we are in the 2nd output.  Today, we require nothing from here.
+			zoe_same s zoe_do_maths_with 1
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					uwarO <=== uwar3
+					^.^ pencil uwarO ^.^we need
+			zoe_oh_I_see
+
+			^.^ if s = 1, we can 'reset'
+			zoe_same s zoe_do_maths_with 1
+			zoe_match?
+				zoe_pass
+					s <=== 0
+			zoe_oh_I_see
+		
+
+		I define reply = ""
+		^.^ OUTPUT 1 - to Browser
+		^.^ Reply Type 1
+		^.^ (we can look at everything)		
+		^.^ reply <=== "HTTP/1.1 200 OK:3:) Server: httpd.lol/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)hello there :{slotIn}:3:)"
+
+		^.^ OUTPUT 2 - to Browser
+		^.^ Reply type 2.
+		^.^ what we trim from the above reciebed signals.
+		^.^ (we see ONLY the web item name)
+		reply <=== "HTTP/1.1 200 OK:3:) Server: httpd.lol/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)Curren Call--> :{uwar3}:3:)"
+
+		^.^ This is not our work - only the translation to zoe.
+
+		I wish_to_call SOCKS --arrMember--> PUT zoe_pass_this sock zoe_and_this conn zoe_and_this reply zoe_call_now
+        	I wish_to_call SOCKS --arrMember--> CLOSE zoe_pass_this conn zoe_call_now
+
+		s <=== zoe_+ s zoe_do_maths_with 1
+
+	zoe_loop_end loop
+
+^.^{
+
+Next Steps:
+Translate the function into new language.
+Use it a la
+	^.^  I HAS A slotIn ITZ I IZ parse YR cmd MKAY  
+
+
+HAI 1.4
+    CAN HAS STDIO?
+    CAN HAS SOCKS?
+    CAN HAS STRING?
+
+
+    BTW start next step!
+    BTW STAGE-2 to transfer this/
+    BTW No Need to Touch This in step 1.
+    BTW Cope with it later to do things with the information coming in after http://127.0.0.1:13337/woodle2
+    HOW IZ I parse YR header
+        I HAS A len ITZ I IZ STRING'Z LEN YR header MKAY
+        I HAS A readin ITZ FAIL
+        I HAS A file ITZ ""
+        IM IN YR loop UPPIN YR index TIL BOTH SAEM index AN len
+            I HAS A char ITZ I IZ STRING'Z AT YR header AN YR index MKAY
+            BOTH OF BOTH SAEM char AN " " AN readin
+            O RLY?
+                YA RLY, FOUND YR file
+            OIC
+            readin, O RLY?, YA RLY, file R SMOOSH file AN char MKAY, OIC
+            BOTH OF BOTH SAEM char AN "/" AN NOT readin
+            O RLY?
+                YA RLY, readin R WIN
+            OIC
+        IM OUTTA YR loop
+        FOUND YR ""
+    IF U SAY SO
+    BTW end next step!
+
+    I HAS A sock
+    sock R I IZ SOCKS'Z BIND YR "127.0.0.1" AN YR 13337 MKAY
+
+    IM IN YR loop
+        I HAS A conn
+        conn R I IZ SOCKS'Z LISTN YR sock MKAY
+        I HAS A cmd
+        cmd R I IZ SOCKS'Z GET YR sock AN YR conn AN YR 1024 MKAY
+
+BTW There are 3 different versions of ___ I HAS A slotIn ITZ ___ here!
+BTW Choose!
+BTW 1. 'correct' version, which depends on the Correction of function parse.  Stage 2
+BTW  i.e....
+BTW  This rund the function!!  Makes USEFUL things happen !!
+BTW I HAS A slotIn ITZ I IZ parse YR cmd MKAY BTW v1.
+BTW This is dependant on STAGE-2  
+
+BTW 2. 'do something' function
+BTW Switch beteen these 2. Interesting!!
+I HAS A slotIn ITZ "niggly naggly noo noo noo" BTW v2.
+BTW I HAS A slotIn ITZ cmd  BTW v3. <<complex version!!  Deals with everything passed back to server
+
+BTW Choose END!!S
+
+        I HAS A reply ITZ ""
+BTW     I HAS A file ITZ I IZ STDIO'Z OPEN YR name AN YR "r" MKAY    BTW Don't even try calling Function (parse) Stage 2
+
+        reply R "HTTP/1.1 200 OK:3:) Server: httpd.lol/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)hello there :{slotIn}:3:)"
+I IZ SOCKS'Z PUT YR sock AND YR conn AN YR reply MKAY
+        I IZ SOCKS'Z CLOSE YR conn MKAY
+    IM OUTTA YR loop
+KTHXBYE
+
+
+}^.^
+
+I see !

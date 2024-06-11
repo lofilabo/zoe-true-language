@@ -1,0 +1,170 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/binding.c
+stdio.h
+-
+binding.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/binding.h
+inet.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/inet.h
+unacceptable.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unacceptable.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/binding.h
+stdio.h
+-
+interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/interpreter.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.c
+error.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.h
+stdlib.h
+-
+stdio.h
+-
+stdarg.h
+-
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/inet.c
+inet.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/inet.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/inet.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+sys/time.h
+-
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/interpreter.c
+interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/interpreter.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/interpreter.h
+stdio.h
+-
+ctype.h
+-
+math.h
+-
+parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/parser.h
+unicode.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unicode.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/lexer.c
+lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/lexer.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/lexer.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+ctype.h
+-
+error.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/main.c
+stdio.h
+-
+stdlib.h
+-
+getopt.h
+-
+readline/readline.h
+-
+readline/history.h
+-
+lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/lexer.h
+tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/tokenizer.h
+parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/parser.h
+interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/interpreter.h
+error.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/parser.c
+parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/parser.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/parser.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+math.h
+-
+float.h
+-
+tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/tokenizer.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/tokenizer.c
+tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/tokenizer.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/tokenizer.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/lexer.h
+error.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/error.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unacceptable.c
+unacceptable.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unacceptable.h
+stdio.h
+-
+string.h
+-
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unacceptable.h
+stdio.h
+-
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unicode.c
+unicode.h
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unicode.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v402 - Improved and tested/02-cannot-harm/unicode.h
+stdio.h
+-
+string.h
+-
+

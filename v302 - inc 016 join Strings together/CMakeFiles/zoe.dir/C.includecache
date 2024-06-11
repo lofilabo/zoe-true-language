@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/richard/Documents/02-cannot-harm/binding.c
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/binding.c
 stdio.h
 -
 binding.h
-/home/richard/Documents/02-cannot-harm/binding.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/binding.h
 inet.h
-/home/richard/Documents/02-cannot-harm/inet.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/inet.h
 unacceptable.h
-/home/richard/Documents/02-cannot-harm/unacceptable.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unacceptable.h
 
-/home/richard/Documents/02-cannot-harm/binding.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/binding.h
 stdio.h
 -
 interpreter.h
-/home/richard/Documents/02-cannot-harm/interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/interpreter.h
 
-/home/richard/Documents/02-cannot-harm/error.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.c
+error.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.h
 stdlib.h
 -
 stdio.h
@@ -30,7 +34,11 @@ stdio.h
 stdarg.h
 -
 
-/home/richard/Documents/02-cannot-harm/inet.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/inet.c
+inet.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/inet.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/inet.h
 stdio.h
 -
 stdlib.h
@@ -50,11 +58,11 @@ netdb.h
 sys/time.h
 -
 
-/home/richard/Documents/02-cannot-harm/interpreter.c
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/interpreter.c
 interpreter.h
-/home/richard/Documents/02-cannot-harm/interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/interpreter.h
 
-/home/richard/Documents/02-cannot-harm/interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/interpreter.h
 stdio.h
 -
 ctype.h
@@ -62,11 +70,15 @@ ctype.h
 math.h
 -
 parser.h
-/home/richard/Documents/02-cannot-harm/parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/parser.h
 unicode.h
-/home/richard/Documents/02-cannot-harm/unicode.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unicode.h
 
-/home/richard/Documents/02-cannot-harm/lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/lexer.c
+lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/lexer.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/lexer.h
 stdlib.h
 -
 stdio.h
@@ -76,9 +88,9 @@ string.h
 ctype.h
 -
 error.h
-/home/richard/Documents/02-cannot-harm/error.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.h
 
-/home/richard/Documents/02-cannot-harm/main.c
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/main.c
 stdio.h
 -
 stdlib.h
@@ -90,21 +102,21 @@ readline/readline.h
 readline/history.h
 -
 lexer.h
-/home/richard/Documents/02-cannot-harm/lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/lexer.h
 tokenizer.h
-/home/richard/Documents/02-cannot-harm/tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/tokenizer.h
 parser.h
-/home/richard/Documents/02-cannot-harm/parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/parser.h
 interpreter.h
-/home/richard/Documents/02-cannot-harm/interpreter.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/interpreter.h
 error.h
-/home/richard/Documents/02-cannot-harm/error.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.h
 
-/home/richard/Documents/02-cannot-harm/parser.c
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/parser.c
 parser.h
-/home/richard/Documents/02-cannot-harm/parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/parser.h
 
-/home/richard/Documents/02-cannot-harm/parser.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/parser.h
 stdlib.h
 -
 stdio.h
@@ -116,13 +128,13 @@ math.h
 float.h
 -
 tokenizer.h
-/home/richard/Documents/02-cannot-harm/tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/tokenizer.h
 
-/home/richard/Documents/02-cannot-harm/tokenizer.c
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/tokenizer.c
 tokenizer.h
-/home/richard/Documents/02-cannot-harm/tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/tokenizer.h
 
-/home/richard/Documents/02-cannot-harm/tokenizer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/tokenizer.h
 stdlib.h
 -
 stdio.h
@@ -130,15 +142,27 @@ stdio.h
 string.h
 -
 lexer.h
-/home/richard/Documents/02-cannot-harm/lexer.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/lexer.h
 error.h
-/home/richard/Documents/02-cannot-harm/error.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/error.h
 
-/home/richard/Documents/02-cannot-harm/unacceptable.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unacceptable.c
+unacceptable.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unacceptable.h
+stdio.h
+-
+string.h
+-
+
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unacceptable.h
 stdio.h
 -
 
-/home/richard/Documents/02-cannot-harm/unicode.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unicode.c
+unicode.h
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unicode.h
+
+/home/richard/Documents/GitHub/zoe-true-language/v302 - inc 016 join Strings together/unicode.h
 stdio.h
 -
 string.h
