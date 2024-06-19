@@ -1,0 +1,51 @@
+oh look !
+
+^.^foo define var1 =oftype==> zoe_integer
+I define foo =oftype==> zoe_array
+
+foo define var1 = WIN
+foo define var2 = FAIL
+foo define var3 = -1
+foo define var4 = 2
+foo define var5 = -3.456
+foo define var6 = 4.21
+foo define var7 = "abc"
+
+^.^ VISIBLE SUM OF 0 AN foo'Z var1
+pencil zoe_+ 0 zoe_do_maths_with foo --arrMember--> var1
+pencil zoe_* 2 zoe_do_maths_with foo --arrMember--> var4
+pencil zoe_/ 8.42 zoe_do_maths_with foo --arrMember--> var6
+
+^.^ VISIBLE foo'Z var7
+pencil foo --arrMember--> var3
+pencil foo --arrMember--> var4
+pencil foo --arrMember--> var5
+pencil foo --arrMember--> var6
+pencil foo --arrMember--> var7
+
+I see !
+
+^.^{
+
+BTW Create an array
+I HAS A array ITZ A BUKKIT
+
+BTW Store/access values in array referenced by literals
+array'Z one R 1     BTW Kinda like array.one = 1
+array'Z two R 2     BTW Kinda like array.two = 2
+VISIBLE array'Z 1   BTW Accessing array.one
+VISIBLE array'Z two
+
+BTW Use a variable to index into an array
+I HAS A index ITZ 3
+array'Z SRS 2 R 1        BTW Kinda like array[2] = 1
+array'Z SRS index R 1    BTW Kinda like array[index] = 1
+
+BTW Functions in arrays
+HOW IZ I functionName
+	GTFO
+IF U SAY SO
+array'Z function R functionName
+I IZ array'Z function MKAY
+
+}^.^

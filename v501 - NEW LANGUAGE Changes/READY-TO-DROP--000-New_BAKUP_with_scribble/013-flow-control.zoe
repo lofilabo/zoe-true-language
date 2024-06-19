@@ -1,0 +1,55 @@
+oh look !
+
+
+^.^{
+
+I HAS A -> I define
+VISIBLE -> scribble
+OIC	-> zoe_oh_I_see
+GTFO	-> zoe_exit
+
+GIMMEH  -> zoe_pleaseInput 
+WTF  	-> zoe_whichone  
+OMG  	-> zoe_Isee
+OMGWTF  -> zoe_ohIsee
+
+BTW Case statement:
+	I HAS A COLOR
+	GIMMEH COLOR
+	COLOR, WTF?
+	    OMG "R"
+		VISIBLE "RED FISH"
+		GTFO
+	    OMG "Y"
+		VISIBLE "YELLOW FISH"
+		BTW Since there is no `GTFO` the next statements will also be tested
+	    OMG "G"
+	    OMG "B"
+		VISIBLE "FISH HAS A FLAVOR"
+		GTFO
+	    OMGWTF
+		VISIBLE "FISH IS TRANSPARENT OHNO WAT"
+	OIC
+}^.^
+
+	I define COLOR = ""
+	zoe_pleaseInput COLOR
+	COLOR, zoe_whichone?
+	    zoe_Isee "R"
+		scribble "RED FISH"
+		zoe_exit
+	    zoe_Isee "Y"
+		scribble "YELLOW FISH"
+		^.^ BTW Since there is no `GTFO` the next statements will also be tested
+	    zoe_Isee "G"
+	    zoe_Isee "grr"
+	    zoe_Isee "B"
+		scribble "FISH HAS A FLAVOR"
+		zoe_exit
+	    zoe_ohIsee
+	scribble "FISH IS TRANSPARENT OHNO WAT"
+	zoe_oh_I_see
+
+
+
+I see !

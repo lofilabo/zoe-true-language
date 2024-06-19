@@ -1,0 +1,8 @@
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/install/strip.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/install/local.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/install.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/list_install_components.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/rebuild_cache.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/edit_cache.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/test.dir
+/home/richard/Documents/03-cannot-harm-NEW-COMMANDS/CMakeFiles/zoe.dir

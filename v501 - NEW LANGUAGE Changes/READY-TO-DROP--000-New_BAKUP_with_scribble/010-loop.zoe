@@ -1,0 +1,106 @@
+oh look !
+  CAN HAS STDIO?
+  scribble "but Doctor..."
+
+^.^Loop!!
+
+	I define trackingVar = 0
+	I define printingValue = 0
+		zoe_loop_begin loopy zoe_inthis zoe_pass_this trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 3
+			scribble printingValue			
+			printingValue <=== zoe_+ trackingVar zoe_do_maths_with 1
+			^.^scribble "but Doctor..."
+		zoe_loop_end loopy
+
+	scribble "--------"
+
+	trackingVar <=== 2
+		zoe_loop_begin loopy zoe_inthis zoe_pass_this trackingVar zoe_until zoe_same trackingVar zoe_do_maths_with 7
+			scribble trackingVar	
+		zoe_loop_end loopy
+
+I see !
+^.^{
+DEV HISTORY!!
+
+
+1.
+I define var1 = 234
+same as
+I HAS A VAR ITZ 0
+
+my_numZ <=== zoe_+ my_num1 zoe_do_maths_with my_num2
+my_numZ <=== zoe_+ VAR zoe_do_maths_with 1
+VISIBLE      SUM OF VAR    AN                1
+scribble
+
+2.
+TT_IMINYR,      /**< Loop beginning. */
+"IM IN YR",    /* TT_IMINYR */
+Now Change:
+To:
+***WAITING***
+>> changing to 'zoe_loop_begin'
+>> TRIED!!  NOW TEST!
+
+3.
+"UPPIN",       /* TT_UPPIN */
+"UPPIN",       /* TT_UPPIN */
+Now Change:
+To:
+***WAITING***
+>>changed to zoe_inthis
+>> TRIED!!  NOW TEST!
+
+4.
+"TIL",         /* TT_TIL */
+Now Changed:
+To:
+>> changed to zoe_until
+
+5.
+"IM OUTTA YR"
+Now Changed to
+zoe_loop_end
+
+6.
+"BOTH"
+Now Changed to
+zoe_loop_end
+
+
+
+HAI 1.2
+I HAS A VAR ITZ 0
+IM IN YR LOOPY UPPIN YR VAR TIL BOTH SAEM VAR AN 10
+   VISIBLE SUM OF VAR AN 1
+IM OUTTA YR LOOPY
+KTHXBYE
+
+
+7. Break Up the Example line
+
+IM IN YR 
+LOOPY (var)
+UPPIN 		zoe_inthis
+YR 		zoe_pass_your
+VAR   		(var)
+TIL 		zoe_until
+BOTH SAEM 	zoe_same
+VAR 		(var)
+AN 
+10
+
+8. Match example line and new line
+
+	^.^	I define LOOPY = 1
+	^.^	IM IN YR        LOOPY UPPIN      YR            VAR TIL       BOTH SAEM VAR AN               10
+		zoe_loop_begin LOOPY zoe_inthis zoe_pass_your VAR zoe_until zoe_same VAR zoe_do_maths_with 10
+
+JAR becomes printingValue
+VAR becomes trackingVar
+LOOPY becomes loopy
+}^.^
+
+		
+
