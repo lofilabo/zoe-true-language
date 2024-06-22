@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/richard/Documents/04-cannot-harm-FOR-SQL/unacceptable.c
+unacceptable.h
+/home/richard/Documents/04-cannot-harm-FOR-SQL/unacceptable.h
+stdio.h
+-
+string.h
+-
+
+/home/richard/Documents/04-cannot-harm-FOR-SQL/unacceptable.h
+stdio.h
+-
+
