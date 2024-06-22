@@ -85,6 +85,7 @@ ReturnObject *isunacceptableWrapper2(struct scopeobject *scope)
 
 ReturnObject *isunacceptableWrapper3(struct scopeobject *scope)
 {
+/* SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL */
 /* 
 	Prototype 3.  Modify for your use
 	CALLED FROM:
@@ -98,12 +99,20 @@ ReturnObject *isunacceptableWrapper3(struct scopeobject *scope)
 SQL Job Marker
 */
 
-	printf("%s\n","You Are Now Inside ZoeSQL - step 1");
-	printf("%s\n","Step 1.");
+//	printf("%s\n","You Are Now Inside ZoeSQL - step 1");
+//	printf("%s\n","Step 1.");
 
         ValueObject *arg1 = getArg(scope, "i");
+/*
+	IF YOU WANT A STRING TO COME IN:
+	char *addr = getString(castStringImplicit(arg1, scope));
+	AND NOT
+	int i = getInteger(arg1);
+*/
 	char *addr = getString(castStringImplicit(arg1, scope));
         int z = unacceptable_basis3(addr);
+	/* int z = 88;// unacceptable_basis3(addr); */
+
         ValueObject *ret = createIntegerValueObject(z);
         return createReturnObject(RT_RETURN, ret);
 
@@ -265,6 +274,23 @@ ReturnObject *isunacceptableWrapperZZZ3(struct scopeobject *scope)
 	return createReturnObject(RT_RETURN, ret);
 
 	*/
+
+
+
+/*
+	THIS ABOUT THIS:
+	char* i = getInteger(arg1);
+	This is clealy wrong!!
+	But we are getting away with it now.
+
+	In the future, look at this:
+
+	IF YOU WANT A STRING TO COME IN:
+	char *addr = getString(castStringImplicit(arg1, scope));
+	AND NOT
+	int i = getInteger(arg1);
+	char *addr = getString(castStringImplicit(arg1, scope));
+*/
 
         ValueObject *arg1 = getArg(scope, "i");
         ValueObject *arg2 = getArg(scope, "j");
@@ -743,9 +769,11 @@ void loadLibrary(ScopeObject *scope, IdentifierNode *target)
    	    lib = createScopeObject(scope);
         if (!lib) goto loadLibraryAbort;
 
-        loadBinding(lib, "ISUNACCEPTABLE1", "i", &isunacceptableWrapper1); // CHANGED
+	loadBinding(lib, "ISUNACCEPTABLE1", "i", &isunacceptableWrapper1); // CHANGED
         loadBinding(lib, "ISUNACCEPTABLE2", "i", &isunacceptableWrapper2); // CHANGED
-        loadBinding(lib, "zoeSQL", "i", &isunacceptableWrapper3); // CHANGED
+
+	/* SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL */
+        loadBinding(lib, "zoeSQL", "i", &isunacceptableWrapper3);
         loadBinding(lib, "ISUNACCEPTABLE4", "i", &isunacceptableWrapper4); // CHANGED
 
         loadBinding(lib, "ISUNACCEPTABLEZ", "i", &isunacceptableWrapperZ); // PROTOTYPE TO COPY.  DO NOT MODIFY.

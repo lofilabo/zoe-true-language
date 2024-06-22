@@ -1,4 +1,6 @@
 #include <stdio.h>
+int unacceptable_basis(char*);
+
 /* 1 - Changed */
 /*int unacceptable_basis1(int);*/
 /* Accepts a String */

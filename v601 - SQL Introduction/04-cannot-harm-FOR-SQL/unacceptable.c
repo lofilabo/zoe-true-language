@@ -1,6 +1,13 @@
 #include "unacceptable.h"
-#include<stdio.h>
+#include <stdio.h>
 #include <string.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h> /* for fork */
+#include <sys/types.h> /* for pid_t */
+#include <sys/wait.h> /* for wait */
+
 /*
 Start.
 Notice:
@@ -65,6 +72,7 @@ char* unacceptable_basis2(int j){
 
 int unacceptable_basis3(char* j){
 
+/* SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL  SQL */
 /*
 back-end of
 isunacceptableWrapper3
@@ -76,12 +84,14 @@ zoeSQL
 SQL Job Marker
 */
 
+	/*
 	printf ("Number 3 --- This Is Unacceptable! (No.1 - The very first!!)\n");
 	printf ("ACCEPTING SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL\n");
 	printf ("ACCEPTING SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL\n");
 	printf ("ACCEPTING SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL SQL\n");
 	printf("%s\n","You Are Now Inside ZoeSQL - step 2");
 	printf("%s\n","......and the next part is Coming In!!");
+	printf("%s\n","===========================================================");
 	
 	//once again: j is the piece of SQL
 	//check it here
@@ -89,6 +99,26 @@ SQL Job Marker
 	// SELECT * from SQLtable.....
 	// it comes from TTT-SQL.zoe
 	printf(j);
+
+	printf("%s\n","");
+	printf("%s\n","^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+	printf("%s\n","Should be SQL here!");
+	printf("%s\n","");
+
+	//char mysqlYYY2[] = "SELECT * from testtable WHERE id=1;";
+	*/
+
+	static char mysqlZZZ[1024]; //1024 2048
+	/*	
+	move the 'flexy' char (j) into 'fixed' char (mysqlZZZ) 
+	to repeat - the str passed over to execv MUST be 'fixed'
+	*/
+	strcpy(mysqlZZZ, j); 
+
+	static char *argv1[]={"./zdb_basement", mysqlZZZ};
+	execv("./zdb_basement",argv1);
+
+
 /*
 Do the SQL work from here
 We already....
