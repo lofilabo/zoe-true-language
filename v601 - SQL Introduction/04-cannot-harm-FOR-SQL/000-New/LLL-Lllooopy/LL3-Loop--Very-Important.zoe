@@ -1,0 +1,90 @@
+
+^.^{
+CHOP UP A STRING
+
+*  based on 'my' version
+   --simple decleretion of loop
+   --specific exit
+
+Q: WHY is this important?
+
+A: End of a search!
+   Loop-through a string separated by ; and divide into
+   separate strings, using zoePassString1.
+
+	zoePassString1 acceps 3 arguments:
+	1. String to be Processed
+	2. Dividing character
+	3: Option:
+		0 -> return the section AFTER the divider in (2)
+		1>-> return the section BEFORE the divider in (2)
+
+	Because our ORIGINAL data will be mutilated, we make a COPY
+	( survivingDataCurrent ) and throw-away the content AFTER the diveder.
+
+	Then, we work on the original, and throw away the content BEFORE 
+	the divider (which makes it good for looping again!
+	
+	SURVIVE		TAKEN
+Start	a;b;c;d; 
+Take 1	b;c;d; 		a
+Take 1	c;d;		b
+Take 1	d;		c
+Take 1			d
+End
+
+The 'End' is based on the observation that the SURVIVE list is now "".
+}^.^
+
+
+oh look ! 
+
+CAN HAS MYLIB?
+CAN HAS STDIO?
+
+	I define survivingData = ""
+	I define allDataTaken = ""
+	I define Follow = 0
+
+	survivingData <-=- "item1;item2;item3;item4;"
+
+^.^ start loop here
+	zoe_loop_begin loopy
+
+		
+	  	allDataTaken <-=- I wish_to_call MYLIB --arrMember--> zoePassString1 ...
+		zoe_pass_this survivingData...
+		zoe_and_this ";" ...
+		zoe_and_this 1 ...
+		zoe_call_now
+		
+		pencil toysoldiers "starting data : " survivingData zoe_call_now
+
+	  	survivingData <-=- I wish_to_call MYLIB --arrMember--> zoePassString1 ...
+		zoe_pass_this survivingData...
+		zoe_and_this ";" ...
+		zoe_and_this 0 ...
+		zoe_call_now
+
+		pencil toysoldiers "'taken' item  : " allDataTaken zoe_call_now
+		pencil toysoldiers "surviving data: " survivingData zoe_call_now
+
+		^.^{ 
+			Important!
+			the rationale begind the EXIT here
+			is: 'when we are looking at "" (zero-string), then Exit'
+			IF survivingData EQUALS no-string, we have finished and we can exit.
+		}^.^
+		zoe_same survivingData zoe_do_maths_with ""
+			zoe_match?
+				zoe_pass
+					zoe_exit
+				zoe_fail
+					Follow <-=- 0 ^.^ Nothing doing - allowing us to demo role of 'zoe_else'
+		pencil "----ABOUT-TO-LOOP---------------"
+
+
+^.^ end loop here
+	zoe_oh_I_see
+	zoe_loop_end loopy
+I see !
