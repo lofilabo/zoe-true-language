@@ -1,7 +1,7 @@
 CMakeFiles/zoe.dir/unacceptable.c.o: \
- /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unacceptable.c \
+ /home/richard/Documents/GitHub/zoe-true-language/v601\ -\ SQL\ Introduction/06-cannot-harm-FOR-SQL-New/unacceptable.c \
  /usr/include/stdc-predef.h \
- /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unacceptable.h \
+ /home/richard/Documents/GitHub/zoe-true-language/v601\ -\ SQL\ Introduction/06-cannot-harm-FOR-SQL-New/unacceptable.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

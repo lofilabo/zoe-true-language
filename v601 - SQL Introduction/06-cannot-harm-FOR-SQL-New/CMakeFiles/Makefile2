@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richard/Documents/06-cannot-harm-FOR-SQL-New
+CMAKE_SOURCE_DIR = "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richard/Documents/06-cannot-harm-FOR-SQL-New
+CMAKE_BINARY_DIR = "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/zoe.dir/clean
 CMakeFiles/zoe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoe.dir/build.make CMakeFiles/zoe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zoe.dir/build.make CMakeFiles/zoe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target zoe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target zoe"
 .PHONY : CMakeFiles/zoe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zoe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zoe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" 0
 .PHONY : CMakeFiles/zoe.dir/rule
 
 # Convenience name for target.

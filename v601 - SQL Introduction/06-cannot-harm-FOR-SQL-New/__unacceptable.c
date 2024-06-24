@@ -129,23 +129,15 @@ SQL Job Marker
     	else { /* pid!=0; parent process */
         waitpid(pid,0,0); /* wait for child to exit */
     	}
-
-	printf("%s\n","You Got This Far!");
-	printf("%s\n","Look Below for the return from this function ( 777 ) !");
+printf("%s\n","You Got This Far!");
 /*
-Test this ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-with
-./zoe ./000-New/TTT-Database-SQL.zoe
-
-
-
 Do the SQL work from here
 We already....
 ACCEPT the SQL from TTT-SQL.zoe (it is j)
 REPEAT: SQL is j
 */
 	
-	return 777;/* ARE YOU SEEING 3 ??  Returning 3. If we pencil in the zoe code, it will show on screen*/
+	return 3;/* ARE YOU SEEING 3 ??  Returning 3. If we pencil in the zoe code, it will show on screen*/
 }
 int unacceptable_basis4(int j){
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richard/Documents/06-cannot-harm-FOR-SQL-New
+CMAKE_SOURCE_DIR = "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richard/Documents/06-cannot-harm-FOR-SQL-New
+CMAKE_BINARY_DIR = "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zoe.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/interpreter.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/interpreter.c.o: interpreter.c
 CMakeFiles/zoe.dir/interpreter.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zoe.dir/interpreter.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/interpreter.c.o -MF CMakeFiles/zoe.dir/interpreter.c.o.d -o CMakeFiles/zoe.dir/interpreter.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/interpreter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/zoe.dir/interpreter.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/interpreter.c.o -MF CMakeFiles/zoe.dir/interpreter.c.o.d -o CMakeFiles/zoe.dir/interpreter.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/interpreter.c"
 
 CMakeFiles/zoe.dir/interpreter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/interpreter.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/interpreter.c > CMakeFiles/zoe.dir/interpreter.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/interpreter.c" > CMakeFiles/zoe.dir/interpreter.c.i
 
 CMakeFiles/zoe.dir/interpreter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/interpreter.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/interpreter.c -o CMakeFiles/zoe.dir/interpreter.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/interpreter.c" -o CMakeFiles/zoe.dir/interpreter.c.s
 
 CMakeFiles/zoe.dir/lexer.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/lexer.c.o: lexer.c
 CMakeFiles/zoe.dir/lexer.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zoe.dir/lexer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/lexer.c.o -MF CMakeFiles/zoe.dir/lexer.c.o.d -o CMakeFiles/zoe.dir/lexer.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/lexer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/zoe.dir/lexer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/lexer.c.o -MF CMakeFiles/zoe.dir/lexer.c.o.d -o CMakeFiles/zoe.dir/lexer.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/lexer.c"
 
 CMakeFiles/zoe.dir/lexer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/lexer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/lexer.c > CMakeFiles/zoe.dir/lexer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/lexer.c" > CMakeFiles/zoe.dir/lexer.c.i
 
 CMakeFiles/zoe.dir/lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/lexer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/lexer.c -o CMakeFiles/zoe.dir/lexer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/lexer.c" -o CMakeFiles/zoe.dir/lexer.c.s
 
 CMakeFiles/zoe.dir/main.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/main.c.o: main.c
 CMakeFiles/zoe.dir/main.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zoe.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/main.c.o -MF CMakeFiles/zoe.dir/main.c.o.d -o CMakeFiles/zoe.dir/main.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/zoe.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/main.c.o -MF CMakeFiles/zoe.dir/main.c.o.d -o CMakeFiles/zoe.dir/main.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/main.c"
 
 CMakeFiles/zoe.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/main.c > CMakeFiles/zoe.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/main.c" > CMakeFiles/zoe.dir/main.c.i
 
 CMakeFiles/zoe.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/main.c -o CMakeFiles/zoe.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/main.c" -o CMakeFiles/zoe.dir/main.c.s
 
 CMakeFiles/zoe.dir/parser.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/parser.c.o: parser.c
 CMakeFiles/zoe.dir/parser.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zoe.dir/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/parser.c.o -MF CMakeFiles/zoe.dir/parser.c.o.d -o CMakeFiles/zoe.dir/parser.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/zoe.dir/parser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/parser.c.o -MF CMakeFiles/zoe.dir/parser.c.o.d -o CMakeFiles/zoe.dir/parser.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/parser.c"
 
 CMakeFiles/zoe.dir/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/parser.c > CMakeFiles/zoe.dir/parser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/parser.c" > CMakeFiles/zoe.dir/parser.c.i
 
 CMakeFiles/zoe.dir/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/parser.c -o CMakeFiles/zoe.dir/parser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/parser.c" -o CMakeFiles/zoe.dir/parser.c.s
 
 CMakeFiles/zoe.dir/tokenizer.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/tokenizer.c.o: tokenizer.c
 CMakeFiles/zoe.dir/tokenizer.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zoe.dir/tokenizer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/tokenizer.c.o -MF CMakeFiles/zoe.dir/tokenizer.c.o.d -o CMakeFiles/zoe.dir/tokenizer.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/tokenizer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/zoe.dir/tokenizer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/tokenizer.c.o -MF CMakeFiles/zoe.dir/tokenizer.c.o.d -o CMakeFiles/zoe.dir/tokenizer.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/tokenizer.c"
 
 CMakeFiles/zoe.dir/tokenizer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/tokenizer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/tokenizer.c > CMakeFiles/zoe.dir/tokenizer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/tokenizer.c" > CMakeFiles/zoe.dir/tokenizer.c.i
 
 CMakeFiles/zoe.dir/tokenizer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/tokenizer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/tokenizer.c -o CMakeFiles/zoe.dir/tokenizer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/tokenizer.c" -o CMakeFiles/zoe.dir/tokenizer.c.s
 
 CMakeFiles/zoe.dir/unicode.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/unicode.c.o: unicode.c
 CMakeFiles/zoe.dir/unicode.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zoe.dir/unicode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/unicode.c.o -MF CMakeFiles/zoe.dir/unicode.c.o.d -o CMakeFiles/zoe.dir/unicode.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/zoe.dir/unicode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/unicode.c.o -MF CMakeFiles/zoe.dir/unicode.c.o.d -o CMakeFiles/zoe.dir/unicode.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unicode.c"
 
 CMakeFiles/zoe.dir/unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/unicode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unicode.c > CMakeFiles/zoe.dir/unicode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unicode.c" > CMakeFiles/zoe.dir/unicode.c.i
 
 CMakeFiles/zoe.dir/unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/unicode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unicode.c -o CMakeFiles/zoe.dir/unicode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unicode.c" -o CMakeFiles/zoe.dir/unicode.c.s
 
 CMakeFiles/zoe.dir/error.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/error.c.o: error.c
 CMakeFiles/zoe.dir/error.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zoe.dir/error.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/error.c.o -MF CMakeFiles/zoe.dir/error.c.o.d -o CMakeFiles/zoe.dir/error.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/error.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/zoe.dir/error.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/error.c.o -MF CMakeFiles/zoe.dir/error.c.o.d -o CMakeFiles/zoe.dir/error.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/error.c"
 
 CMakeFiles/zoe.dir/error.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/error.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/error.c > CMakeFiles/zoe.dir/error.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/error.c" > CMakeFiles/zoe.dir/error.c.i
 
 CMakeFiles/zoe.dir/error.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/error.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/error.c -o CMakeFiles/zoe.dir/error.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/error.c" -o CMakeFiles/zoe.dir/error.c.s
 
 CMakeFiles/zoe.dir/binding.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/binding.c.o: binding.c
 CMakeFiles/zoe.dir/binding.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zoe.dir/binding.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/binding.c.o -MF CMakeFiles/zoe.dir/binding.c.o.d -o CMakeFiles/zoe.dir/binding.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/binding.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/zoe.dir/binding.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/binding.c.o -MF CMakeFiles/zoe.dir/binding.c.o.d -o CMakeFiles/zoe.dir/binding.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/binding.c"
 
 CMakeFiles/zoe.dir/binding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/binding.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/binding.c > CMakeFiles/zoe.dir/binding.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/binding.c" > CMakeFiles/zoe.dir/binding.c.i
 
 CMakeFiles/zoe.dir/binding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/binding.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/binding.c -o CMakeFiles/zoe.dir/binding.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/binding.c" -o CMakeFiles/zoe.dir/binding.c.s
 
 CMakeFiles/zoe.dir/inet.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/inet.c.o: inet.c
 CMakeFiles/zoe.dir/inet.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zoe.dir/inet.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/inet.c.o -MF CMakeFiles/zoe.dir/inet.c.o.d -o CMakeFiles/zoe.dir/inet.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/inet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/zoe.dir/inet.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/inet.c.o -MF CMakeFiles/zoe.dir/inet.c.o.d -o CMakeFiles/zoe.dir/inet.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/inet.c"
 
 CMakeFiles/zoe.dir/inet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/inet.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/inet.c > CMakeFiles/zoe.dir/inet.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/inet.c" > CMakeFiles/zoe.dir/inet.c.i
 
 CMakeFiles/zoe.dir/inet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/inet.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/inet.c -o CMakeFiles/zoe.dir/inet.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/inet.c" -o CMakeFiles/zoe.dir/inet.c.s
 
 CMakeFiles/zoe.dir/unacceptable.c.o: CMakeFiles/zoe.dir/flags.make
 CMakeFiles/zoe.dir/unacceptable.c.o: unacceptable.c
 CMakeFiles/zoe.dir/unacceptable.c.o: CMakeFiles/zoe.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zoe.dir/unacceptable.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/unacceptable.c.o -MF CMakeFiles/zoe.dir/unacceptable.c.o.d -o CMakeFiles/zoe.dir/unacceptable.c.o -c /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unacceptable.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/zoe.dir/unacceptable.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/zoe.dir/unacceptable.c.o -MF CMakeFiles/zoe.dir/unacceptable.c.o.d -o CMakeFiles/zoe.dir/unacceptable.c.o -c "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unacceptable.c"
 
 CMakeFiles/zoe.dir/unacceptable.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zoe.dir/unacceptable.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unacceptable.c > CMakeFiles/zoe.dir/unacceptable.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unacceptable.c" > CMakeFiles/zoe.dir/unacceptable.c.i
 
 CMakeFiles/zoe.dir/unacceptable.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zoe.dir/unacceptable.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/richard/Documents/06-cannot-harm-FOR-SQL-New/unacceptable.c -o CMakeFiles/zoe.dir/unacceptable.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/unacceptable.c" -o CMakeFiles/zoe.dir/unacceptable.c.s
 
 # Object files for target zoe
 zoe_OBJECTS = \
@@ -237,7 +237,7 @@ zoe: CMakeFiles/zoe.dir/inet.c.o
 zoe: CMakeFiles/zoe.dir/unacceptable.c.o
 zoe: CMakeFiles/zoe.dir/build.make
 zoe: CMakeFiles/zoe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable zoe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable zoe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zoe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -249,6 +249,6 @@ CMakeFiles/zoe.dir/clean:
 .PHONY : CMakeFiles/zoe.dir/clean
 
 CMakeFiles/zoe.dir/depend:
-	cd /home/richard/Documents/06-cannot-harm-FOR-SQL-New && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/richard/Documents/06-cannot-harm-FOR-SQL-New /home/richard/Documents/06-cannot-harm-FOR-SQL-New /home/richard/Documents/06-cannot-harm-FOR-SQL-New /home/richard/Documents/06-cannot-harm-FOR-SQL-New /home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/zoe.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New" "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New" "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New" "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New" "/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/zoe.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/zoe.dir/depend
 

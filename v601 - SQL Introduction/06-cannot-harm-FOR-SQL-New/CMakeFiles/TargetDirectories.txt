@@ -1,8 +1,8 @@
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/zoe.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/test.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/edit_cache.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/rebuild_cache.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/list_install_components.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/install.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/install/local.dir
-/home/richard/Documents/06-cannot-harm-FOR-SQL-New/CMakeFiles/install/strip.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/zoe.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/test.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/edit_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/rebuild_cache.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/list_install_components.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/install.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/install/local.dir
+/home/richard/Documents/GitHub/zoe-true-language/v601 - SQL Introduction/06-cannot-harm-FOR-SQL-New/CMakeFiles/install/strip.dir
