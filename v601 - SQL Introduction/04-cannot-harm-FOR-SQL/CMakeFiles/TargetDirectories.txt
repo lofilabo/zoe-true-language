@@ -1,8 +1,0 @@
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/install/strip.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/install/local.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/install.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/list_install_components.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/rebuild_cache.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/edit_cache.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/test.dir
-/home/richard/Documents/04-cannot-harm-FOR-SQL/CMakeFiles/zoe.dir

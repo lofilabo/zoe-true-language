@@ -1,0 +1,33 @@
+^.^{
+
+Does this not work?
+Do you care about database access?
+If NOT, comment or delete it (or separate into its own file!).
+
+
+If you DO cate, make sure this:
+
+	1. SQLite is installed.
+
+		sudo apt install sqlite3
+		sudo apt-get install libsqlite3-dev
+
+	2. Test basics:
+
+		./zdb_check
+
+}^.^
+
+
+
+oh look ! 
+
+	CAN HAS MYLIB?
+	CAN HAS STDIO?
+
+	pencil I wish_to_call MYLIB --arrMember--> zoeSQL zoe_pass_this "SELECT * from SQLtable....." zoe_call_now
+	^.^ this pencile prints the Reurn vales from the C part
+
+
+I see !
+
