@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/zoe.dir/interpreter.c.o CMakeFiles/zoe.dir/lexer.c.o CMakeFiles/zoe.dir/main.c.o CMakeFiles/zoe.dir/parser.c.o CMakeFiles/zoe.dir/tokenizer.c.o CMakeFiles/zoe.dir/unicode.c.o CMakeFiles/zoe.dir/error.c.o CMakeFiles/zoe.dir/binding.c.o CMakeFiles/zoe.dir/inet.c.o CMakeFiles/zoe.dir/unacceptable.c.o -o zoe  -lm -lncurses -lreadline 
