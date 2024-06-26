@@ -1,0 +1,64 @@
+^.^{
+experiement/learning.
+do not use a loop
+try to do several, identical operation
+}^.^
+oh look ! 
+
+CAN HAS MYLIB?
+CAN HAS STDIO?
+
+	I define uwar351 = ""
+	I define uwar352 = ""
+	I define uwar353 = ""
+
+	uwar351 <-=- "id1;id2;id3;"
+	pencil uwar351
+
+	zoe_same uwar351 zoe_do_maths_with ""
+	zoe_match?
+		zoe_pass
+			pencil "You Passed! -- uwar351==''. You could stop a loop here "
+		zoe_fail
+			pencil "You Failed! -- uwar351!=''.  Carry On Looping. "
+	zoe_oh_I_see
+
+  	uwar351 <-=- I wish_to_call MYLIB --arrMember--> zoePassString1	zoe_pass_this uwar351...
+	zoe_and_this ";" zoe_and_this 0 ...
+	zoe_call_now
+	pencil uwar351
+
+	zoe_same uwar351 zoe_do_maths_with ""
+	zoe_match?
+		zoe_pass
+			pencil "You Passed! -- uwar351==''. You could stop a loop here "
+		zoe_fail
+			pencil "You Failed! -- uwar351!=''.  Carry On Looping. "
+	zoe_oh_I_see
+
+  	uwar351 <-=- I wish_to_call MYLIB --arrMember--> zoePassString1	zoe_pass_this uwar351...
+	zoe_and_this ";" zoe_and_this 0 ...
+	zoe_call_now
+	pencil uwar351
+
+	zoe_same uwar351 zoe_do_maths_with ""
+	zoe_match?
+		zoe_pass
+			pencil "You Passed! -- uwar351==''. You could stop a loop here "
+		zoe_fail
+			pencil "You Failed! -- uwar351!=''.  Carry On Looping. "
+	zoe_oh_I_see
+
+  	uwar351 <-=- I wish_to_call MYLIB --arrMember--> zoePassString1	zoe_pass_this uwar351...
+	zoe_and_this ";" zoe_and_this 0 ...
+	zoe_call_now
+	pencil uwar351
+
+	zoe_same uwar351 zoe_do_maths_with ""
+	zoe_match?
+		zoe_pass
+			pencil "You Passed! -- uwar351==''. You could stop a loop here "
+		zoe_fail
+			pencil "You Failed! -- uwar351!=''.  Carry On Looping. "
+	zoe_oh_I_see
+I see !

@@ -1,0 +1,104 @@
+Main File to Change:
+
+tokenizer.h
+
+Firstly:
+cd Documents/01-cannot-harm/
+
+To Compile:
+cmake .
+make
+
+To Run:
+./zoe ./000-New/003-numbers.zoe
+
+
+NEXT TASKS:
+* look at tokenizer.h   --  next changes are listed in there
+
+* learn what these are for:
+--	NUMBR
+--	NUMBAR
+--	TROOF
+--	YARN
+--	BUKKET
+look at:
+
+	https://github.com/leyarotheconquerer/lolcode-reference/blob/master/AdvancedReference.md
+	to learn how array / BUKKET works
+
+and:
+
+	https://gist.github.com/tuanbaros/377b38de2876298e7dc31b67d526ede5
+
+and don't forget 'original'
+
+	https://github.com/justinmeza/lolcode-spec/blob/master/v1.2/lolcode-spec-v1.2.md
+
+NEXT RESEARCH:
+
+		PROGRES!!
+
+			This MAY BE completed....
+			comments are:
+			^.^ (one line)
+			^.^{  	]Two or
+			}^.^  	]more lines
+
+				* how to change BTW
+					----> grep -Rnw ./*.c -e 'BTW'
+					we can see that BTW is defined in 
+					./lexer.c:285:		if (!strncmp(start, "BTW", 3)) {
+
+					NOTES ON __BTW__
+
+					BTW [MESSAGE] 	To write a single line comment in LOLCODE, you use the BTW keyword. Comments are ignored by the compiler and are written for better understanding of the program.
+					OBTW [MESSAGE]TLDR 	Similar to the BTW keyword, the OBTW keyword marks a multiline comment, a comment that spans multiple lines. 
+					In LOLCODE, the OBTW keyword signifies the start of a multiline comment while the TLDR keyword ends it. 
+
+						****NOTE!! IMPORTANT!!****
+
+						'BTW' changed to 'zoeComment'
+						at: ./lexer.c:285
+				THIS IS NOT FINISHED
+				BUT BEGUN.
+
+				Next:
+				Look at 
+					OBTW
+					and
+					TLDR
+
+And Then:
+
+grep -Rnw ./*.c -e 'STDIO'
+	which shows:
+	STDIO is inside
+	binding.c
+
+So!
+We need to look at:
+lexer.c
+and
+binding.c
+^^^^^^^^^-------This is also where 
+		#include "unacceptable.h"
+                                          is included!!
+
+Finished here with:
+	"zoe_+",      	/* TT_SUMOF */		/*  You Did This! 'SUM OF' -> 'zoe_+' */
+	"zoe_-",     	/* TT_DIFFOF */		/*  You Did This! 'DIFF OF' -> 'zoe_-' */
+	"zoe_*",  	/* TT_PRODUKTOF */	/*  You Did This! 'PRODUKT OF' -> 'zoe_*' */
+	"zoe_/", 	/* TT_QUOSHUNTOF */	/*  You Did This! 'QUOSHUNT OF' -> 'zoe_/' */
+
+
+NEXT TIME:
+	TT_MODOF,       /**< Modulo. */
+	TT_BIGGROF,     /**< Greater than. */
+	TT_SMALLROF,    /**< Less than. */
+	TT_BOTHOF,      /**< Logical AND. */
+	TT_EITHEROF,    /**< Logical OR. */
+	TT_WONOF,       /**< Logical XOR. */
+	TT_NOT,         /**< Logical NOT. */
+
+	
