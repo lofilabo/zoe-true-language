@@ -1,0 +1,38 @@
+
+^.^{
+FLIP THROUGH NUMBERS
+
+*  based on 'my' version
+   --simple decleretion of loop
+   --specific exit
+
+}^.^
+
+oh look ! 
+
+	I define trackingVar = 0
+	I define printingValue = 0
+
+	I define baseText = "string"
+	I define currText = ""
+
+	trackingVar <-=- 0
+		zoe_loop_begin loopy 
+			pencil trackingVar	
+
+			zoe_same trackingVar zoe_do_maths_with 7
+			zoe_match?
+				zoe_pass
+					zoe_exit
+				zoe_fail
+					trackingVar <-=- z+ trackingVar zoe_do_maths_with 1
+
+			^.^ IMPORTANT - attach a 'str' to a char, i.e 'string' + 1 = 'string1' */
+			currText <-=-  toysoldiers baseText trackingVar zoe_call_now
+			pencil currText
+			^.^ We can use this to do a little more with Array!  ---  SEE NEXT!!
+
+		zoe_oh_I_see
+		zoe_loop_end loopy
+
+I see !

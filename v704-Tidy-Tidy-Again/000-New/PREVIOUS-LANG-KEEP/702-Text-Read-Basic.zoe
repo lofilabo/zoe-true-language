@@ -1,0 +1,37 @@
+^.^{
+
+
+"r"
+"w"
+"a"
+"r+"
+"w+"
+"a+"
+
+
+r: opens a text file in reading mode.
+w: opens or creates a text file in writing mode.
+a: opens a text file in append mode.
+r+: opens a text file in both reading and writing mode. ...
+w+: opens a text file in both reading and writing mode. ...
+a+: opens a text file in both reading and appending mode.
+
+}^.^
+oh look !
+	CAN HAS STDIO?
+
+^.^	I HAS A readFile ITZ I IZ STDIO'Z OPEN YR "read.txt" AN YR "r" MKAY
+	I define readFile = I wish_to_call STDIO --arrMember--> OPEN zoe_pass_this "read.txt" zoe_and_this "r" zoe_call_now
+
+^.^	I IZ STDIO'Z DIAF YR readFile MKAY
+	I wish_to_call STDIO --arrMember--> DIAF zoe_pass_this readFile zoe_call_now 
+
+^.^	I HAS A contents ITZ I IZ STDIO'Z LUK YR readFile AN YR 1024 MKAY
+	I define contents = I wish_to_call STDIO --arrMember-->  LUK zoe_pass_this readFile zoe_and_this 1024 zoe_call_now
+^.^
+^.^	VISIBLE contents
+	pencil contents
+
+^.^	I IZ STDIO'Z CLOSE YR readFile MKAY
+
+I see !
