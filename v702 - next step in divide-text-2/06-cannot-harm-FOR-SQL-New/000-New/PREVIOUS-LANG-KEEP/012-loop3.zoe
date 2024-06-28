@@ -1,0 +1,42 @@
+oh look !
+
+^.^{
+
+---Infinite loops---
+
+Important!
+This loop loops on for ever,
+unless steped out by calling GTFO
+
+Maybe this is the best ^^
+like:
+for(;;){
+	/* here */
+}
+
+IM IN YR loop_label
+  BTW this is the body of the loop
+  BTW this loop will go on forever until stopped explicitly
+  
+  GTFO  BTW this statement exits from the loop
+IM OUTTA YR loop_label
+
+}^.^
+
+I define trackingVar = 0
+
+zoe_loop_begin loop_label
+	pencil trackingVar
+	trackingVar <=== zoe_+ trackingVar zoe_do_maths_with 1
+
+	zoe_same trackingVar zoe_do_maths_with 7
+		zoe_match?
+		^.^ NEXT: Use BIGGROF: https://gist.github.com/sharmaeklavya2/8a0e2581baf969be0f64
+		zoe_pass
+		pencil "You exit!"
+		zoe_exit
+	zoe_oh_I_see
+
+zoe_loop_end loop_label
+
+I see !

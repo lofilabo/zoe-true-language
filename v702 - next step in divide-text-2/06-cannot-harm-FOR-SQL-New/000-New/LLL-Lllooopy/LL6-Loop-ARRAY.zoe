@@ -1,0 +1,69 @@
+
+^.^{
+SAME AS LL5 - Going agead to try something with an array!
+
+
+FLIP THROUGH NUMBERS
+
+*  based on 'my' version
+   --simple decleretion of loop
+   --specific exit
+
+}^.^
+
+oh look ! 
+
+	I define trackingVar = 0
+	I define printingValue = 0
+
+	I define baseText = "string"
+	I define currText = ""
+
+
+	pencil "Now, demonstrate basic array"
+
+	I define foo -of-> zoe_array
+
+	foo define v1 = "one"
+	foo define v2 = "two"
+
+	^.^	SIDE-NOTE:
+	^.^	Looks nice on screen, but difficult to follow.  Keep for reference!
+	^.^ 	pencil toysoldiers ">>DEMO>>  " foo --arrMember--> v1 zoe_call_now  
+	^.^     print  'join'       item 1      //-----item 2------// end-instruction
+	^.^                                    ^note - no 'mark' or '+', just a space.  toysoldiers has only space as separator.
+
+	pencil foo --arrMember--> v1   
+	pencil foo --arrMember--> v2
+
+	pencil "Now, modity the array"
+
+	foo --arrMember--> v1 <-=- "ichi"
+	foo --arrMember--> v2 <-=- "ni"
+	pencil foo --arrMember--> v1
+	pencil foo --arrMember--> v2
+
+	pencil "End of Array demonstration!"
+
+	trackingVar <-=- 0
+		zoe_loop_begin loopy 
+			pencil trackingVar	
+
+			zoe_same trackingVar zoe_do_maths_with 7
+			zoe_match?
+				zoe_pass
+					zoe_exit
+				zoe_fail
+					^.^ fail the test, continue operation!
+					trackingVar <-=- z+ trackingVar zoe_do_maths_with 1
+
+			^.^ IMPORTANT - attach a 'str' to a char, i.e 'string' + 1 = 'string1' */
+			currText <-=-  toysoldiers baseText trackingVar zoe_call_now
+			pencil currText
+			^.^ We can use this to do a little more with Array!  ---  SEE NEXT!!
+			^.^ There is a beginning info above here.
+
+		zoe_oh_I_see
+		zoe_loop_end loopy
+
+I see !

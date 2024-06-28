@@ -1,0 +1,28 @@
+oh look !
+  CAN HAS STDIO?
+
+	I define VAR1 = "abc" 
+	I define VAR2 = "def"
+	I define VAR3 = toysoldiers VAR1 VAR2 zoe_do_maths_with VAR2 zoe_call_now	^.^ This is OK
+	I define VAR4 = toysoldiers VAR1 VAR2 zoe_call_now				^.^ So is this
+	I define VAR5 = toysoldiers VAR1 "<---->" VAR2 zoe_call_now				^.^ So is this
+ 
+	pencil VAR3
+	pencil VAR4
+	pencil VAR5
+
+I see !
+
+^.^{
+
+HAI 1.3
+I HAS A VAR1 ITZ "abc" 
+I HAS A VAR2 ITZ "def" 
+I HAS A VAR3 ITZ SMOOSH VAR1 AN VAR2 MKAY   BTW - CONCATENATE STRINGS VAR1 AND VAR2 INTO ONE
+
+VISIBLE VAR3
+
+KTHXBYE
+
+
+}^.^
