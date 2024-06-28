@@ -1,0 +1,56 @@
+
+oh look ! ^.^ as usual, not needed in this long set of tests. If it has its own home, uncomment
+
+CAN HAS MYLIB?
+CAN HAS STDIO?
+
+	I define survivingData = ""
+	I define allDataTaken = ""
+	I define Follow = 0
+
+	survivingData <-=- "item1;item2;item3;item4;item5;"
+
+^.^ start loop here
+	zoe_loop_begin loopy
+
+		
+	  	allDataTaken <-=- I wish_to_call MYLIB --toBaby--> zoePassStringMore ...
+		<--[ survivingData ...
+		zAnd ";" ...
+		zAnd 1 ...
+		]--<
+		
+		pencil toysoldiers>--[ "starting data : " survivingData ]--<
+
+	  	survivingData <-=- I wish_to_call MYLIB --toBaby--> zoePassStringMore ...
+		<--[ survivingData ...
+		zAnd ";" ...
+		zAnd 0 ...
+		]--<
+
+		pencil toysoldiers>--[ "'taken' item  : " allDataTaken ]--<
+		pencil toysoldiers>--[ "surviving data: " survivingData ]--<
+
+		^.^{ 
+			Important!
+			the rationale begind the EXIT here
+			is: 'when we are looking at "" (zero-string), then Exit'
+			IF survivingData EQUALS no-string, we have finished and we can exit.
+		}^.^
+		zoe_same survivingData {.} ""
+			zoe_match?
+				zoe_pass
+					zoe_exit
+				zoe_fail
+					Follow <-=- 0 ^.^ Nothing doing - allowing us to demo role of 'zoe_else'
+		pencil "----ABOUT-TO-LOOP---------------"
+
+
+^.^ end loop here
+	zoe_oh_I_see
+	zoe_loop_end loopy
+I see !   ^.^ as usual, not needed in this long set of tests. If it has its own home, uncomment
+
+
+
+
