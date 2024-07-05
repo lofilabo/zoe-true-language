@@ -1,0 +1,219 @@
+oh look ! 
+
+	pencil ""
+	pencil "Web Server v.3 Now Running"
+
+	pencil "Try this:: 127.0.0.1:13337/the/route/"
+
+
+	CAN HAS STDIO?
+	CAN HAS SOCKS?
+	CAN HAS STRING?
+	CAN HAS MYLIB?
+	CAN HAS STDIO?
+
+	I define sock
+	sock <-=- I wish_to_call SOCKS --toBaby--> BIND <--[ "127.0.0.1" zAnd 13337 ]--<
+
+
+	I define trackingVarX = ""
+	I define printingValueX = ""
+	I define zuwar1 = ""
+	I define zuwar2 = ""
+	I define zuwar3 = ""
+	I define zuwar7 = ""
+	I define zuwarA = ""
+	I define zuwarB = ""
+	I define zuwarC = ""
+	I define zuwarM = ""
+	I define zuwarO = ""
+	I define s = 0
+	I define t = 0
+	I define conn
+	I define cmd
+
+
+		I define allDataTaken = "" ^.^ later, allDataTaken is list path as in: "/top-level/level-two"
+		I define separator = ""
+		I define Follow = 0
+
+		zoe_loop_begin loop
+
+
+			conn <-=- I wish_to_call SOCKS --toBaby--> LISTN <--[ sock ]--<
+			cmd  <-=- I wish_to_call SOCKS --toBaby-->  GET <--[ sock zAnd conn zAnd 1024 ]--<
+
+			I define slotIn = cmd
+			I define survivingData = cmd
+			
+
+^.^			zoe_same t {.} 0
+^.^			zoe_match?
+^.^				zoe_pass
+					
+					separator <-=- "HTTP"
+
+					^.^ later, allDataTaken is list path as in: "/top-level/level-two"
+				  	allDataTaken <-=- I wish_to_call MYLIB --toBaby--> zoePassStringMore ...
+					<--[ survivingData ...
+					zAnd separator ...
+					zAnd 1 ...
+					]--<
+					
+					^.^ pencil toysoldiers>--[ "starting data : " survivingData ]--<
+
+				  	survivingData <-=- I wish_to_call MYLIB --toBaby--> zoePassStringMore ...
+					<--[ survivingData ...
+					zAnd separator ...
+					zAnd 0 ...
+					]--<
+					
+					^.^ allDataTaken Will Be list path as in: "/top-level/level-two"
+	 			  	allDataTaken <-=- I wish_to_call MYLIB --toBaby--> zoePassStringMore ...
+	 				<--[ allDataTaken ...
+	 				zAnd separator ...
+	 				zAnd 0 ...
+	 				]--<
+
+					^.^ pencil toysoldiers>--[ "'abandoned' text: " survivingData ]--<
+					^.^ allDataTaken is list path as in: "/top-level/level-two"
+					^.^ pencil toysoldiers>--[ "'surviving' data: " allDataTaken ]--<
+
+			t <-=- z+ t {.} 1
+^.^		zoe_fail
+^.^			pencil "Skipping!"
+^.^		zoe_oh_I_see
+
+		zuwar2 <-=- I wish_to_call MYLIB --toBaby--> zoePassString1 <--[ slotIn zAnd "H" zAnd 1 ]--<
+		zuwar3 <-=- zuwar2 
+
+			zoe_same s {.} 0
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					zuwarM <-=- zuwar3
+					pencil zuwarM
+			zoe_oh_I_see
+
+			^.^ if s = 1, we are in the 2nd output.  Today, we require nothing from here.
+			zoe_same s {.} 1
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					zuwarO <-=- zuwar3
+					^.^ pencil zuwarO ^.^we need
+			zoe_oh_I_see
+
+			^.^ if s = 1, we can 'reset'
+			zoe_same s {.} 1
+			zoe_match?
+				zoe_pass
+					s <-=- 0
+			zoe_oh_I_see
+		
+
+		I define reply = ""
+
+		^.^ see note 2
+pencil allDataTaken
+		reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.zoe/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)<html><body><h1>Current Call</h1><img src=https://www.1010.or.jp/map/wp-content/uploads/2015/03/naminoyu-top-250x170.jpg><br/> :{allDataTaken}:3:)</body></html>"
+
+
+		I wish_to_call SOCKS --toBaby--> PUT <--[ sock zAnd conn zAnd reply ]--<
+        	I wish_to_call SOCKS --toBaby--> CLOSE <--[ conn ]--<
+
+		s <-=- z+ s {.} 1
+		
+
+	zoe_loop_end loop
+
+
+
+	^.^{
+		Note 0
+				
+		^.^  I HAS A slotIn ITZ I IZ parse YR cmd MKAY BTW <<<<we must prepare this next.  Use ___parse___ function
+		
+		^.^ do not show everything if you don't want to.
+		^.^ This shows on the Server Monitor - not the Browser!
+		^.^ pencil slotIn 
+		
+		^.^ use this to see the string which is being looked at.
+		^.^ pencil slotIn
+
+		^.^ Experiment - try to cut off the first bit of the string     zuwar7 <-=- I wish_to_call MYLIB --toBaby--> zoePassString1 <--[ slotIn zAnd " " zAnd 0 ]--<
+
+	}^.^
+
+
+	^.^{
+		NOTE-2
+	}^.^
+		^.^ OUTPUT 1 - to Browser
+		^.^ Reply Type 1
+		^.^ (we can look at everything)		
+		^.^ reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.lol/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)hello there :{slotIn}:3:)"
+
+		^.^ OUTPUT 2 - to Browser
+		^.^ Reply type 2.
+		^.^ what we trim from the above reciebed signals.
+		^.^ (we see ONLY the web item name)
+
+		^.^ without HTML
+		^.^ reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.zoe/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)Current Call--> :{zuwar3}:3:)"
+
+		^.^ with HTML
+
+		^.^ Previous Version.
+		^.^ reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.zoe/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)<html><body><h1>Current Call</h1><img src=https://www.1010.or.jp/map/wp-content/uploads/2015/03/naminoyu-top-250x170.jpg><br/> :{zuwar3}:3:)</body></html>"
+		
+		^.^ allDataTaken is list path as in: "/top-level/level-two"
+
+
+
+
+	^.^{
+
+		NOTE-1
+
+		THE REASON FOR CAPTURING TWICE 
+
+		When a 'REQUEST' is made, there are 2 'calls', one after another.
+		If we store the 'last request' re recieve, we will miss important 
+		one ith this information:
+
+			GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+			Host: 127.0.0.1:13337
+			Connection: keep-alive
+			Cache-Control: max-age=0
+			......
+		
+		If we store only the 'last' response we get, this will be overwritten.
+
+		We get 2 and not 1 responses.
+
+		i.
+		Uncomment this:
+		^.^ pencil slotIn
+		to see them.
+
+		ii.
+		Store both of them in different vars.
+		these are:
+		zuwarM  and
+		zuwarO
+
+		We then look into zuwarM to get what we want:
+		GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+		beween GET and HTTP....
+
+		iii.
+		Important to remember:
+		Our ONE request results in TWO replies,
+		of which the second will override the first if we 'just' roll the loop
+		to pick up 'the reply'
+	}^.^
+
+
+
+I see !

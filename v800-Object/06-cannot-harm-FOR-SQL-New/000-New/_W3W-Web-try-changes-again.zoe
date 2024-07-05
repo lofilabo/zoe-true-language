@@ -1,0 +1,199 @@
+oh look ! 
+
+	pencil ""
+	pencil "WEB WEB WEB WEB WEB WEB WEB "
+	pencil "WEB WEB WEB WEB WEB WEB WEB "
+	pencil "WEB WEB WEB WEB WEB WEB WEB "
+	pencil "Web Server v.2 Now Running"
+
+	pencil "We are in an Endless Loop now."
+	pencil "CTRL-C to stop"
+	pencil "Keep at the End of this file."
+
+	pencil ""
+	pencil "Point your Browser at this:"
+	pencil "127.0.0.1:13337"
+
+
+	CAN HAS STDIO?
+	CAN HAS SOCKS?
+	CAN HAS STRING?
+	CAN HAS MYLIB?
+	CAN HAS STDIO?
+
+	I define sock
+	sock <-=- I wish_to_call SOCKS --toBaby--> BIND <--[ "127.0.0.1" zAnd 13337 ]--<
+
+
+	^.^{
+		THE REASON FOR CAPTURING TWICE 
+
+		When a 'REQUEST' is made, there are 2 'calls', one after another.
+		If we store the 'last request' re recieve, we will miss important 
+		one ith this information:
+
+			GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+			Host: 127.0.0.1:13337
+			Connection: keep-alive
+			Cache-Control: max-age=0
+			......
+		
+		If we store only the 'last' response we get, this will be overwritten.
+
+		We get 2 and not 1 responses.
+
+		i.
+		Uncomment this:
+		^.^ pencil slotIn
+		to see them.
+
+		ii.
+		Store both of them in different vars.
+		these are:
+		zuwarM  and
+		zuwarO
+
+		We then look into zuwarM to get what we want:
+		GET /prongle/grragh/8888888/hgfhgfhgf/%5E%5E%5E%5E HTTP/1.1
+		beween GET and HTTP....
+
+		iii.
+		Important to remember:
+		Our ONE request results in TWO replies,
+		of which the second will override the first if we 'just' roll the loop
+		to pick up 'the reply'
+	}^.^
+
+
+	I define trackingVarX = ""
+	I define printingValueX = ""
+	I define zuwar1 = ""
+	I define zuwar2 = ""
+	I define zuwar3 = ""
+	I define zuwar7 = ""
+	I define zuwarM = ""
+	I define zuwarO = ""
+	I define s = 0
+	I define t = 0
+	I define separator = ""
+
+	zoe_loop_begin loop
+
+		I define conn
+		conn <-=- I wish_to_call SOCKS --toBaby--> LISTN <--[ sock ]--<
+		I define cmd
+		cmd  <-=- I wish_to_call SOCKS --toBaby-->  GET <--[ sock zAnd conn zAnd 1024 ]--<
+
+		^.^  I define slotIn = "niggly naggly noo noo noo"
+
+		I define slotIn = cmd
+		I define slotIn2 = cmd
+		
+		^.^  I HAS A slotIn ITZ I IZ parse YR cmd MKAY BTW <<<<we must prepare this next.  Use ___parse___ function
+		
+		^.^ do not show everything if you don't want to.
+		^.^ This shows on the Server Monitor - not the Browser!
+		^.^ pencil slotIn 
+		
+		^.^ use this to see the string which is being looked at.
+		^.^ pencil slotIn
+
+		^.^ Experiment - try to cut off the first bit of the string     zuwar7 <-=- I wish_to_call MYLIB --toBaby--> zoePassString1 <--[ slotIn zAnd " " zAnd 0 ]--<
+		zuwar2 <-=- I wish_to_call MYLIB --toBaby--> zoePassString1 <--[ slotIn zAnd "H" zAnd 1 ]--<
+
+
+^.^{
+
+slotIn2 
+
+}^.^
+			zoe_same t {.} 0
+			zoe_match?
+				zoe_pass
+					separator <-=- "HTTP"
+					pencil "Passed!"
+					t <-=- z+ t {.} 1
+				zoe_fail
+					pencil "Skipping!"
+				zoe_oh_I_see
+
+
+
+
+		^.^	DIVIDE THE STRING.  >>>> HTTP/1.1 <<<		Here we are using 'H' from HTTP/1.1 
+		^.^	Can we do better?
+		^.^	SPLITTING THE STRING 
+		^.^	THIS BIT.
+		^.^	D O    N O T   L E A V E    T H I S   A L O N E
+		
+		^.^ use this to see the string which is being looked at.
+		^.^ pencil zuwar2
+
+
+		zuwar3 <-=- I wish_to_call MYLIB --toBaby--> zoePassString1 <--[ zuwar2 zAnd "/" zAnd 0 ]--<
+
+
+			^.^ pencil slotIn  ^.^ EACH reply from the server.
+			^.^ pencil zuwar3
+			^.^ pencil s
+		
+			^.^ Let's keep track of the 'reply' we are 'inside'
+			^.^ s=0 -- first one	( zuwarM )
+			^.^ s=1 -- second one	( zuwarO )
+
+
+			^.^ if s = 1, we are in the 1st output.  
+			zoe_same s {.} 0
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					zuwarM <-=- zuwar3
+					pencil zuwarM
+			zoe_oh_I_see
+
+			^.^ if s = 1, we are in the 2nd output.  Today, we require nothing from here.
+			zoe_same s {.} 1
+			zoe_match?
+				zoe_pass
+					^.^ pencil "You Passed Stage 1"
+					zuwarO <-=- zuwar3
+					^.^ pencil zuwarO ^.^we need
+			zoe_oh_I_see
+
+			^.^ if s = 1, we can 'reset'
+			zoe_same s {.} 1
+			zoe_match?
+				zoe_pass
+					s <-=- 0
+			zoe_oh_I_see
+		
+
+		I define reply = ""
+		^.^ OUTPUT 1 - to Browser
+		^.^ Reply Type 1
+		^.^ (we can look at everything)		
+		^.^ reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.lol/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)hello there :{slotIn}:3:)"
+
+		^.^ OUTPUT 2 - to Browser
+		^.^ Reply type 2.
+		^.^ what we trim from the above reciebed signals.
+		^.^ (we see ONLY the web item name)
+
+		^.^ without HTML
+		^.^ reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.zoe/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)Current Call--> :{zuwar3}:3:)"
+
+		^.^ with HTML
+		reply <-=- "HTTP/1.1 200 OK:3:) Server: httpd.zoe/0.1 (lci):3:) Context-Type: text/html:3:) Content-Length: 19:3:):3:)<html><body><h1>Current Call</h1><img src=https://www.1010.or.jp/map/wp-content/uploads/2015/03/naminoyu-top-250x170.jpg><br/> :{zuwar3}:3:)</body></html>"
+
+		^.^ This is not our work - only the translation to zoe.
+
+		I wish_to_call SOCKS --toBaby--> PUT <--[ sock zAnd conn zAnd reply ]--<
+        	I wish_to_call SOCKS --toBaby--> CLOSE <--[ conn ]--<
+
+		s <-=- z+ s {.} 1
+
+	zoe_loop_end loop
+
+I see !
+
+
